@@ -7,7 +7,7 @@ export const unocss_opts = {
     presetWebFonts({
       provider: 'google', // default provider
       fonts: {
-        'padauk': ['Padauk'],
+        'Noto Sans Myanmar': ['Noto+Sans+Myanmar:100,200,300,400,500,600,700,800,900'],
       },
     }),
   ],
@@ -15,7 +15,7 @@ export const unocss_opts = {
     {
       getCSS: () => `
         p {
-          font-family: 'padauk';
+          font-family: 'Noto Sans Myanmar', sans-serif;
           line-height: 1.8;
         }
       `
