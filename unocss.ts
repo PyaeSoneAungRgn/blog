@@ -14,8 +14,11 @@ export const unocss_opts = {
   preflights: [
     {
       getCSS: () => `
-        p {
+        html {
           font-family: 'Noto Sans Myanmar', sans-serif;
+        }
+
+        p {
           line-height: 1.8;
         }
       `
