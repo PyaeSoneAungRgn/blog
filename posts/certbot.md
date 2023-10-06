@@ -1,6 +1,4 @@
 ---
-extends: _layouts.post
-section: content
 title: Certbot
 date: 2021-03-11
 description: Certbot သုံးပြီး HTTPS Certificate ကို install လုပ်မယ်။ တကယ်တော့ https ကို install လုပ်ရတာ အရမ်းလွယ်ပါတယ်။
@@ -15,7 +13,6 @@ description: Certbot သုံးပြီး HTTPS Certificate ကို instal
 [certbot.eff.org](https://certbot.eff.org/)
 
 ![Screen Shot 2021-09-20 at 21.23.37.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1632149639971/QAQJJwUuO.png)
-
 
 အဲ့မှာ My HTTP website is running က _**Software**_ နေရာမှာ ကိုယ်သုံးထားတဲ့ Web Server ကိုရွေးပါ။ _**System**_ နေရာမှာ ကိုယ်သုံးထားတဲ့ Operation System ကို ရွေးပါ။
 

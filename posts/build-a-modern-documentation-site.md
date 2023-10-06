@@ -1,18 +1,14 @@
 ---
-extends: _layouts.post
-section: content
 title: Build a Modern Documentation Site
 date: 2023-08-19
 description: Laravel ရဲ့ Forge၊ Envoyer၊ Vapor၊ Jetstream နဲ့ Spark တို့လို့ modern documentation site တစ်ခု ဘယ်လိုတည်ဆောက်လို့ရလဲဆိုတာကို knowledge sharing လုပ်ချင်ပါတယ်။
-categories: [laravel]
-seo_image: https://pyaesoneaung.dev/assets/img/blog/build-a-modern-documentation-site-seo-6.png
 ---
 
 ကိုယ်တိုင်က opensource package ဒါမှမဟုတ် project တစ်ခုခုကို လုပ်ထားပြီးရင် အဲ့ project ရဲ့ feature တွေ အကုန်လုံးကို လူတိုင်း အလွယ်တကူ သုံးနိုင်ဖို့ documentation ကောင်းကောင်းတစ်ခု လိုပါတယ်။ Documentation ရဲ့ UI ကလည်း ရှင်းရှင်းလင်းလင်းနဲ့ သပ်သပ်ရပ်ရပ် ဖြစ်ဖို့က အရေးကြီးပါတယ်။
 
 ဒီနေရာမှာ ကျွန်တော့်ရဲ့ package တစ်ခုဖြစ်တဲ့ [Laravel Myanmar Tools](https://www.laravel-myanmar-tools.com) ရဲ့ documentation ကို VitePress နဲ့ ဘယ်လိုဖန်တီးထားတယ်ဆိုတာ knowledge sharing လုပ်ချင်ပါတယ်။
 
-![build-a-modern-documentation-site-img-1](https://pyaesoneaung.dev/assets/img/blog/build-a-modern-documentation-site-img-1.png)
+![build-a-modern-documentation-site-img-1](https://www.pyaesoneaung.dev/assets/img/blog/build-a-modern-documentation-site-img-1.png)
 
 ### VitePress
 
@@ -20,7 +16,7 @@ VitePress ဆိုတာကတော့ static site generator တစ်ခု�
 
 ### @hempworks/pilgrim
 
-ဒီ package က တော့ VitePress ရဲ့ theme ပါ။ Pilgrim theme ကို Laravel ရဲ့ [Forge](https://forge.laravel.com/docs/introduction.html)၊ [Envoyer](https://docs.envoyer.io/introduction.html)၊ [Vapor](https://docs.vapor.build/introduction.html)၊ [Jetstream](https://jetstream.laravel.com/introduction.html) နဲ့ [Spark](https://spark.laravel.com/docs/introduction.html) တို့မှာ သုံးထားပါတယ်။ 
+ဒီ package က တော့ VitePress ရဲ့ theme ပါ။ Pilgrim theme ကို Laravel ရဲ့ [Forge](https://forge.laravel.com/docs/introduction.html)၊ [Envoyer](https://docs.envoyer.io/introduction.html)၊ [Vapor](https://docs.vapor.build/introduction.html)၊ [Jetstream](https://jetstream.laravel.com/introduction.html) နဲ့ [Spark](https://spark.laravel.com/docs/introduction.html) တို့မှာ သုံးထားပါတယ်။
 
 ### vitepress-pilgrim-starter
 
@@ -28,7 +24,7 @@ VitePress ဆိုတာကတော့ static site generator တစ်ခု�
 
 ### Installation
 
-အရင်ဆုံး vitepress-pilgrim-starter ကို install လုပ်ပါမယ်။ 
+အရင်ဆုံး vitepress-pilgrim-starter ကို install လုပ်ပါမယ်။
 
 ```bash
 git clone https://github.com/PyaeSoneAungRgn/vitepress-pilgrim-starter.git
@@ -37,47 +33,48 @@ npm install
 npm run docs:dev
 ```
 
-Project structure မှာ `src` folder နဲ့ `.vitepress/config.ts` ၂ ခုပဲ အဓိကကြည့်ပါမယ်။ `src` folder မှာတော့ သက်ဆိုင်ရာ documentation တွေကို markdown file နဲ့ ရေးပါမယ်။ `.vitepress/config.ts` မှာတော့ website ရဲ့ navigation တွေ၊ side bar တွေ၊ setting တွေ configure လုပ်ပါမယ်။ 
+Project structure မှာ `src` folder နဲ့ `.vitepress/config.ts` ၂ ခုပဲ အဓိကကြည့်ပါမယ်။ `src` folder မှာတော့ သက်ဆိုင်ရာ documentation တွေကို markdown file နဲ့ ရေးပါမယ်။ `.vitepress/config.ts` မှာတော့ website ရဲ့ navigation တွေ၊ side bar တွေ၊ setting တွေ configure လုပ်ပါမယ်။
 
 ```js
-import { defineConfigWithTheme } from "vitepress";
+import { defineConfigWithTheme } from 'vitepress'
 import type { ThemeConfig } from '@hempworks/pilgrim'
 import config from '@hempworks/pilgrim/config'
 
-export default defineConfigWithTheme<ThemeConfig>({
+export default defineConfigWithTheme <
+  ThemeConfig >
+  {
     extends: config,
     title: 'Virepress Pilgrim Starter',
-    description: 'Documentation template styled like Forge, Envoyer, Vapor, Jetstream, and Spark',
+    description:
+      'Documentation template styled like Forge, Envoyer, Vapor, Jetstream, and Spark',
     base: '/',
     cleanUrls: false,
     srcDir: 'src',
 
     themeConfig: {
-        logo: {
-            light: '/logo.png',
-            dark: '/logo-dark.png',
-        },
-        nav: [
-            { text: 'Home', link: '/markdown-examples' },
-        ],
-        sidebar: [
-            {
-                text: 'Examples',
-                items: [
-                    { text: 'Markdown Examples', link: '/markdown-examples' },
-                    { text: 'Runtime API Examples', link: '/api-examples' },
-                ],
-            }
-        ],
-        search: {
-            provider: 'local',
-            options: {
-                placeholder: 'Search...',
-            },
-        },
-        githubUrl: 'https://github.com/PyaeSoneAungRgn/vitepress-pilgrim-starter'
+      logo: {
+        light: '/logo.png',
+        dark: '/logo-dark.png'
+      },
+      nav: [{ text: 'Home', link: '/markdown-examples' }],
+      sidebar: [
+        {
+          text: 'Examples',
+          items: [
+            { text: 'Markdown Examples', link: '/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/api-examples' }
+          ]
+        }
+      ],
+      search: {
+        provider: 'local',
+        options: {
+          placeholder: 'Search...'
+        }
+      },
+      githubUrl: 'https://github.com/PyaeSoneAungRgn/vitepress-pilgrim-starter'
     }
-})
+  }
 ```
 
 `sidebar` section မှာတော့ ကျွန်တော်တို့ markdown နဲ့ ရေးထားတဲ့ documention တွေကို link ချိတ်ပေးရမှာပါ။ Configuration အပြည့်စုံကိုတော့ [ဒီမှာ](https://www.npmjs.com/package/@hempworks/pilgrim) ကြည့်လို့ရပါတယ်။

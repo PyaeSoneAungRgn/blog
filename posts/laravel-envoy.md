@@ -1,10 +1,7 @@
 ---
-extends: _layouts.post
-section: content
 title: Laravel Envoy
 date: 2023-01-01
 description: Laravel Envoy ဆိုတာကတော့ remote server ပေါ်မှာ run ချင်တဲ့ task တွေကို Blade syntax နဲ့ လွယ်လွယ်ကူကူ manage လုပ်လို့ရတဲ့ tool တစ်ခုဖြစ်ပါတယ်။
-categories: [laravel]
 ---
 
 [Laravel Envoy](https://laravel.com/docs/9.x/envoy) ဆိုတာကတော့ remote server ပေါ်မှာ run ချင်တဲ့ task တွေကို Blade syntax နဲ့ လွယ်လွယ်ကူကူ manage လုပ်လို့ရတဲ့ tool တစ်ခုဖြစ်ပါတယ်။
@@ -20,6 +17,7 @@ composer require laravel/envoy --dev
 Project ရဲ့ root folder အောက်မှာ `Envoy.blade.php` ဆိုပြီး file တစ်ခု create လုပ်ပါမယ်။
 
 `Envoy.blade.php`
+
 ```blade
 @servers(['web' => ['user@192.168.1.1']])
 
@@ -62,10 +60,10 @@ php vendor/bin/envoy run deploy --branch=master
 
 ```blade
 @servers(['web' => ['user@192.168.1.1']])
- 
+
 @task('deploy', ['on' => 'web'])
     cd /home/user/example.com
- 
+
     @if ($branch)
         git pull origin {{ $branch }}
     @endif
@@ -87,12 +85,12 @@ php vendor/bin/envoy run deploy
     update-code
     install-dependencies
 @endstory
- 
+
 @task('update-code')
     cd /home/user/example.com
     git pull origin master
 @endtask
- 
+
 @task('install-dependencies')
     cd /home/user/example.com
     composer install

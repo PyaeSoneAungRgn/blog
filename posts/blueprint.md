@@ -1,10 +1,7 @@
 ---
-extends: _layouts.post
-section: content
 title: Blueprint
 date: 2022-11-16
 description: Blueprint ဆိုတာကတော့ Laravel အတွက် code generate ထုတ်ပေးတဲ့ tool တစ်ခုပါ။ Blueprint မှာကောင်းတာကတော့ draft.yml confing file တစ်ခုတည်းကနေ manage လုပ်လို့ရတာပါ။
-categories: [laravel]
 ---
 
 [Blueprint](https://blueprint.laravelshift.com) ဆိုတာကတော့ Laravel အတွက် code generate ထုတ်ပေးတဲ့ tool တစ်ခုပါ။ Blueprint မှာကောင်းတာကတော့ `draft.yaml` confing file တစ်ခုတည်းကနေ manage လုပ်လို့ရတာပါ။

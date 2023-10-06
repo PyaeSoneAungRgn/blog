@@ -1,6 +1,4 @@
 ---
-extends: _layouts.post
-section: content
 title: Docsify
 date: 2023-03-15
 description: Docsify ဆိုတာကတော့ documentation site generator တစ်ခုပါ။
@@ -54,7 +52,7 @@ docsify serve docs
 
 လို့ run ပါမယ်။ ဒါဆိုရင် အခုလို ရပါပြီ။
 
-![docsify-1.png](https://pyaesoneaung.dev/assets/img/blog/docsify-1.png)
+![docsify-1.png](https://www.pyaesoneaung.dev/assets/img/blog/docsify-1.png)
 
 ဒီနေရမှာ code တွေ syntax highlight ဖြစ်အောင် plugin ထည့်ပေးရပါမယ်။
 

@@ -1,10 +1,7 @@
 ---
-extends: _layouts.post
-section: content
 title: Laravel Short Schedule
 date: 2021-03-29
 description: Artisan Command တွေကို စက္ကန့်တိုင်း run မယ်။ အရင်ကတော့ command တွေကို စက္ကန့်တိုင်း run ချင်ရင် infinite loop တစ်ခုပတ်ပြီး sleep(1) ဆိုပြီး ရေးချင်တာရေးပါတယ် (လိုက်မလုပ်ပါနဲ့ :3)။ အခုတော့ laravel-short-schedule ကိုသုံးပြီး နည်းစနစ် မှန်မှန် လုပ်လို့ရပါပြီ။
-categories: [laravel]
 ---
 
 > Artisan Command တွေကို စက္ကန့်တိုင်း run မယ်။
@@ -48,13 +45,13 @@ Overlap မဖြစ်အောင် run ချင်ရင်
 
 ```php
 $shortSchedule->command('inspire')->withoutOverlapping()->everySecond();
-``` 
+```
 
 သတ်မှတ်ထားတဲ့ အချိန်အတွင်း run ချင်ရင်
 
 ```php
 $shortSchedule->command('inspire')->between('09:00', '17:00')->everySecond();
-``` 
+```
 
 တခြား option တွေလည်းရှိပါသေးတယ်။ [ဒီမှာ](https://github.com/spatie/laravel-short-schedule#usage) ကြည့်လို့ရပါတယ်။
 

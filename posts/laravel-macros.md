@@ -1,10 +1,7 @@
 ---
-extends: _layouts.post
-section: content
 title: Laravel Macros
 date: 2022-02-03
 description: Laravel macros ဆိုတာကတော့ Laravel Framework ရဲ့ feature တစ်ခုပါ။ Laravel macros က Laravel ရဲ့ core components တွေမှာ မရှိတဲ့ functions တွေကို ထပ်ထည့်လို့ရအောင် လုပ်ပေးပါတယ်။
-categories: [laravel]
 ---
 
 Laravel macros ဆိုတာကတော့ Laravel Framework ရဲ့ feature တစ်ခုပါ။ Laravel macros က Laravel ရဲ့ core components တွေမှာ မရှိတဲ့ functions တွေကို ထပ်ထည့်လို့ရအောင် လုပ်ပေးပါတယ်။
@@ -41,7 +38,7 @@ Macro ရေးဖို့ အရင်ဆုံး ကိုယ်သုံး
 - Illuminate\Routing\UrlGenerator
 - Illuminate\Support\Arr
 - Illuminate\Support\Collection
-- Illuminate\Support\Facades\Http 
+- Illuminate\Support\Facades\Http
 - Illuminate\Support\LazyCollection
 - Illuminate\Support\Str
 - Illuminate\Support\Testing\Fakes\NotificationFake
@@ -52,7 +49,7 @@ Macro ရေးဖို့ အရင်ဆုံး ကိုယ်သုံး
 
 အဲ့ထဲကမှ **Illuminate\Support\Str** class မှာ string က json string ဟုတ် မဟုတ် စစ်တဲ့ function တစ်ခု ရေးပြပါမယ်။
 
-**AppServiceProvider.php** ထဲ က *boot()* function မှာရေးရမှာပါ။
+**AppServiceProvider.php** ထဲ က _boot()_ function မှာရေးရမှာပါ။
 
 ```php
 use Illuminate\Support\Str;
@@ -64,14 +61,16 @@ public function boot()
         return json_last_error() == JSON_ERROR_NONE;
     });
 }
-``` 
+```
+
 ဒါဆိုရင် ခုလိုစမ်းလို့ရပါပြီ။
+
 ```php
 use Illuminate\Support\Str;
 
 Str::isJsonString('{"foo":"bar"}'); // return true
 Str::isJsonString('{"foo":"bar"} hello world'); // return false
-``` 
+```
 
 ပိုပြီးမြင်သာအောင် **Illuminate\Support\Facades\Http** အတွက်လည်း ရေးပြပါမယ်။
 
@@ -84,7 +83,7 @@ public function boot()
         return Http::withBasicAuth('admin', 'secret')->baseUrl('https://iplookupbalabala.com');
     });
 }
-``` 
+```
 
 ဒါဆိုရင် api ခေါ်ဖို့ အတွက် constructor မှာ client ဆောက်စရာ မလိုပဲ ဒီလိုရေးလို့ ရပါပြီ။
 
@@ -92,7 +91,7 @@ public function boot()
 use Illuminate\Support\Facades\Http;
 
 Http::ipLookup()->get('/');
-``` 
+```
 
 ဒီလောက်ဆိုရင် ကိုယ့် project ရဲ့ requirements ပေါ် မူတည်ပြီး function အသစ်တွေ အများကြီး ထပ်ရေးနိုင်မယ်လို့ ထင်ပါတယ်။
 

@@ -1,10 +1,7 @@
 ---
-extends: _layouts.post
-section: content
 title: Laravel Myanmar Tools
 date: 2023-03-10
 description: Laravel Myanmar Tools ဆိုတာကတော့ မြန်မာဘာသာစကား အတွက်လိုအပ်တာတွေကို Laravel framework ရဲ့ core component တွေမှာ extend လုပ်ထားတဲ့ package တစ်ခုဖြစ်ပါတယ်။
-categories: [laravel]
 ---
 
 [Laravel Myanmar Tools](https://github.com/PyaeSoneAungRgn/laravel-myanmar-tools) ဆိုတာကတော့ မြန်မာဘာသာစကား အတွက်လိုအပ်တာတွေကို Laravel framework ရဲ့ core component တွေမှာ extend လုပ်ထားတဲ့ package တစ်ခုဖြစ်ပါတယ်။
@@ -26,7 +23,7 @@ composer require pyaesoneaung/laravel-myanmar-tools
 - Eloquent Builder
 - Query Builder
 - Collection
-- Validator 
+- Validator
 - Carbon
 
 #### Str
@@ -153,6 +150,7 @@ $request->validate([
 ```
 
 #### Carbon
+
 ```php
 use Illuminate\Support\Carbon;
 

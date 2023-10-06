@@ -1,20 +1,19 @@
 ---
-extends: _layouts.post
-section: content
 title: Proper Way for Api Integration
 date: 2022-09-10
 description: အစကတော့ working-with-data-in-api-integrations ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက််ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။
-categories: [laravel]
 ---
 
 အစကတော့ [working-with-data-in-api-integrations](https://laravel-news.com/working-with-data-in-api-integrations) ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက််ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။
 
 ### Project Overview
+
 - Source Code - [https://github.com/PyaeSoneAungRgn/proper-way-for-api-integration](https://github.com/PyaeSoneAungRgn/proper-way-for-api-integration)
 
 [opentdb.com](https://opentdb.com/) ကနေ random multiple-choice questions တွေဆွဲပြီး အဖြေမှန်ကို choice လုပ်ရမယ့် cli game တစ်ခုရေးသွားပါမယ်။
 
 ### Installation
+
 အရင်ဆုံး **quiz-cli** နာမည်နဲ့ Laravel new project တစ်ခုလုပ်ပါမယ်။
 
 ```bash
@@ -22,6 +21,7 @@ composer create-project laravel/laravel quiz-cli
 ```
 
 ### Create Api Service
+
 Api Service ကို **app/Services/Opentdb** folder မှာ ဆောက်ပါမယ်။
 
 `app/Services/Opentdb/OpentdbService.php`
@@ -41,7 +41,8 @@ class OpentdbService
 }
 
 ```
-PHP 8 ကနေ စပြီး ပါလာတဲ့ **Readonly Property**  နဲ့ **named arguments** ကိုသုံးထားပါတယ်။
+
+PHP 8 ကနေ စပြီး ပါလာတဲ့ **Readonly Property** နဲ့ **named arguments** ကိုသုံးထားပါတယ်။
 
 Api endpoint နဲ့ token ကို `services.php` မှာ အခုလို ထည့်ပါမယ်။
 
@@ -70,11 +71,13 @@ public function boot()
     );
 }
 ```
-ဒါဆိုရင် `app(OpentdbService::class)` လို့ခေါ်တာနဲ့  **OpentdbService** class ရဲ့ dependencies  တွေ inject လုပ်ပြီးသား object ကိုရမှာပါ။
 
-အခု api ခေါ်ဖို့ လိုအပ်တဲ့ http client ဆောက်တာနဲ့ api request တွေ send ဖို့ လိုအပ်တဲ့ function တွေကို  `app/Services/Concerns` folder မှာ traits အနေနဲ့ ရေးပါမယ်။
+ဒါဆိုရင် `app(OpentdbService::class)` လို့ခေါ်တာနဲ့ **OpentdbService** class ရဲ့ dependencies တွေ inject လုပ်ပြီးသား object ကိုရမှာပါ။
+
+အခု api ခေါ်ဖို့ လိုအပ်တဲ့ http client ဆောက်တာနဲ့ api request တွေ send ဖို့ လိုအပ်တဲ့ function တွေကို `app/Services/Concerns` folder မှာ traits အနေနဲ့ ရေးပါမယ်။
 
 `app/Services/Concerns/BuildBaseRequest.php`
+
 ```php
 <?php
 
@@ -112,9 +115,11 @@ trait BuildBaseRequest
 }
 
 ```
+
 (ဒီနေရာမှာ Opentdb က api token မလိုတဲ့အတွက် **buildRequest** function ကိုပဲ သုံးသွားပါမယ်။ api token လိုအပ်တဲ့ service တွေအတွက် **buildRequestWithToken** လိုမျိုး function မှာ customize လုပ်ပြီး ရေးလို့ရပါတယ်။)
 
 `app/Services/Concerns/CanSendGetRequest.php`
+
 ```php
 <?php
 
@@ -135,6 +140,7 @@ trait CanSendGetRequest
 ```
 
 `app/Services/Concerns/CanSendPostRequest.php`
+
 ```php
 <?php
 
@@ -188,9 +194,10 @@ class OpentdbService
 }
 ```
 
-ဒီနေရာမှာ question() function ကိုနည်းနည်း ရှင်းပြချင်ပါတယ်။ Opentdb api မှာ questions နဲ့ categories အတွက် ဆိုပြီး endpoint တွေရှိပါတယ်။ Questions နဲ့ဆိုင်တဲ့ business logic တွေကို QuestionResource ကနေ handle လုပ်မှာပါ။ တခြား endpoint  တွေဆိုရင်လည်း သက်ဆိုင်ရာ Resource ကနေ handle လုပ်ပါမယ်။
+ဒီနေရာမှာ question() function ကိုနည်းနည်း ရှင်းပြချင်ပါတယ်။ Opentdb api မှာ questions နဲ့ categories အတွက် ဆိုပြီး endpoint တွေရှိပါတယ်။ Questions နဲ့ဆိုင်တဲ့ business logic တွေကို QuestionResource ကနေ handle လုပ်မှာပါ။ တခြား endpoint တွေဆိုရင်လည်း သက်ဆိုင်ရာ Resource ကနေ handle လုပ်ပါမယ်။
 
 `app/Services/Opentdb/Resources/QuestionResource.php`
+
 ```php
 <?php
 
@@ -215,6 +222,7 @@ class QuestionResource
     }
 }
 ```
+
 ဒါဆိုရင် tinker ကနေ အခုလို api ခေါ်လို့ရပါပြီ။
 
 ```php
@@ -225,45 +233,37 @@ app(OpentdbService::class)->question()->list()->json()
 
 ```json
 {
-   "response_code":0,
-   "results":[
-      {
-         "category":"Entertainment: Video Games",
-         "type":"multiple",
-         "difficulty":"medium",
-         "question":"What happened to Half-Life 2 prior to its release, which resulted in Valve starting over the development of the game?",
-         "correct_answer":"The source code got leaked",
-         "incorrect_answers":[
-            "They weren&#039;t satisfied with the result",
-            "The story was not good enough",
-            "Way too many bugs to be fixed"
-         ]
-      },
-      {
-         "category":"History",
-         "type":"multiple",
-         "difficulty":"medium",
-         "question":"The Korean War started in what year?",
-         "correct_answer":"1950",
-         "incorrect_answers":[
-            "1945",
-            "1960",
-            "1912"
-         ]
-      },
-      {
-         "category":"Entertainment: Video Games",
-         "type":"multiple",
-         "difficulty":"easy",
-         "question":"In Pokemon, the ability Wonder Guard is exclusive to which Pokemon? ",
-         "correct_answer":"Shedinja ",
-         "incorrect_answers":[
-            "Sableye",
-            "Spiritomb",
-            "Silvally "
-         ]
-      }
-   ]
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What happened to Half-Life 2 prior to its release, which resulted in Valve starting over the development of the game?",
+      "correct_answer": "The source code got leaked",
+      "incorrect_answers": [
+        "They weren&#039;t satisfied with the result",
+        "The story was not good enough",
+        "Way too many bugs to be fixed"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Korean War started in what year?",
+      "correct_answer": "1950",
+      "incorrect_answers": ["1945", "1960", "1912"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Pokemon, the ability Wonder Guard is exclusive to which Pokemon? ",
+      "correct_answer": "Shedinja ",
+      "incorrect_answers": ["Sableye", "Spiritomb", "Silvally "]
+    }
+  ]
 }
 ```
 
@@ -274,6 +274,7 @@ app(OpentdbService::class)->question()->list()->json()
 အဲ့ဒါကြောင့် api response array ကို handle လုပ်ရလွယ်ကူတဲ့ Data Object ပြောင်းပါမယ်။ Data Object ပြောင်းဖို့ အတွက် Question Data Object တစ်ခုဆောက်ပါမယ်။
 
 `app/Services/Opentdb/DataObjects/Question.php`
+
 ```php
 <?php
 
@@ -306,11 +307,13 @@ class Question
     }
 }
 ```
+
 Opentdb api response က correct answer ကို string နဲ့ တစ်ခုပြန်ပြီး incorrect answers တွေကို array နဲ့ တစ်ခုပြန်ပါတယ်။ Business logic အရ မေးခွန်းရယ််၊ အဖြေမှန်ရယ်၊ အဖြေတွေအားလုံး random ရောထားတာ ရယ်ပဲ လိုတဲ့ အတွက် toArray() function မှာ အခုလိုရေးထားတာပါ။
 
 Data Object ပြီးရင် response array ကနေ object ပြောင်းဖို့ Data Factory တစ်ခုဆောက်ဖို့ လိုပါတယ်။
 
 `app/Services/Opentdb/DataFactories/QuestionFactory.php`
+
 ```php
 <?php
 
@@ -351,6 +354,7 @@ class QuestionFactory
     }
 }
 ```
+
 ဒါဆိုရင် အခုလို သုံးလို့ရပါပြီ။
 
 ```php

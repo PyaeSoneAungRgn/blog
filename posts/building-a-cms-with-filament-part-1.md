@@ -1,15 +1,12 @@
 ---
-extends: _layouts.post
-section: content
 title: Building a CMS with Filament (Part - 1)
 date: 2022-04-13
 description: Filament ကိုသုံးပြီး powerful ဖြစ်တဲ့ CMS တစ်ခုကို လွယ်လွယ်ကူကူ တည်ဆောက်လို့ ရပါတယ်။
-categories: [laravel]
 ---
 
 > Filament ကိုသုံးပြီး powerful ဖြစ်တဲ့ CMS တစ်ခုကို လွယ်လွယ်ကူကူ တည်ဆောက်လို့ ရပါတယ်။
 
-Filament အကြောင်းကို အရင်တုန်းက [ဒီမှာ](https://pyaesoneaung.dev/fliament) ရေးခဲ့ပါတယ်။ အလွယ်ပြန်ပြောရရင် Admin Panel အတွက် အသင့်ရေးပြီးသား livewire components တွေကို collection လုပ်ထားတဲ့ package တစ်ခုပါ။
+Filament အကြောင်းကို အရင်တုန်းက [ဒီမှာ](https://www.pyaesoneaung.dev/fliament) ရေးခဲ့ပါတယ်။ အလွယ်ပြန်ပြောရရင် Admin Panel အတွက် အသင့်ရေးပြီးသား livewire components တွေကို collection လုပ်ထားတဲ့ package တစ်ခုပါ။
 
 ### Project Overview
 
