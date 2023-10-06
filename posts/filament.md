@@ -2,7 +2,6 @@
 title: Filament
 date: 2022-01-01
 description: Filament ဆိုတာကတော့ Admin Panel, Form Builder နဲ့ Table Builder တို့ပါဝင်တဲ့ TALLkit တစ်ခုပါ။ ကျွန်တော် ၂၀၂၂ မှာ ပို့လေ့လာဖြစ်မယ့် tech stack လည်းဖြစ်ပါတယ်။
-categories: [laravel]
 ---
 
 Filament ဆိုတာကတော့ Admin Panel, Form Builder နဲ့ Table Builder တို့ပါဝင်တဲ့ TALLkit တစ်ခုပါ။ ကျွန်တော် ၂၀၂၂ မှာ ပို့လေ့လာဖြစ်မယ့် tech stack လည်းဖြစ်ပါတယ်။
