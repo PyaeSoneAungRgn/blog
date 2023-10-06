@@ -1,0 +1,121 @@
+{
+    "cleanUrls": true,
+    "headers": [
+        {
+            "source": "/assets/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "max-age=31536000, immutable"
+                }
+            ]
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/build-a-modern-documentation-site",
+            "destination": "/posts/build-a-modern-documentation-site",
+            "permanent": true
+        },
+        {
+            "source": "/blueprint",
+            "destination": "/posts/blueprint",
+            "permanent": true
+        },
+        {
+            "source": "/building-a-cms-with-filament-part-1",
+            "destination": "/posts/building-a-cms-with-filament-part-1",
+            "permanent": true
+        },
+        {
+            "source": "/certbot",
+            "destination": "/posts/certbot",
+            "permanent": true
+        },
+        {
+            "source": "/docsify",
+            "destination": "/posts/docsify",
+            "permanent": true
+        },
+        {
+            "source": "/expose",
+            "destination": "/posts/expose",
+            "permanent": true
+        },
+        {
+            "source": "/filament",
+            "destination": "/posts/filament",
+            "permanent": true
+        },
+        {
+            "source": "/handling-2k-reqsec-and-50k-connections-laravel-project",
+            "destination": "/posts/handling-2k-reqsec-and-50k-connections-laravel-project",
+            "permanent": true
+        },
+        {
+            "source": "/handling-webhooks",
+            "destination": "/posts/handling-webhooks",
+            "permanent": true
+        },
+        {
+            "source": "/heroku",
+            "destination": "/posts/heroku",
+            "permanent": true
+        },
+        {
+            "source": "/laravel-envoy",
+            "destination": "/posts/laravel-envoy",
+            "permanent": true
+        },
+        {
+            "source": "/laravel-jetstrap",
+            "destination": "/posts/laravel-jetstrap",
+            "permanent": true
+        },
+        {
+            "source": "/laravel-macros",
+            "destination": "/posts/laravel-macros",
+            "permanent": true
+        },
+        {
+            "source": "/laravel-myanmar-tools",
+            "destination": "/posts/laravel-myanmar-tools",
+            "permanent": true
+        },
+        {
+            "source": "/laravel-short-schedule",
+            "destination": "/posts/laravel-short-schedule",
+            "permanent": true
+        },
+        {
+            "source": "/my-favoruite-audiobooks",
+            "destination": "/posts/my-favoruite-audiobooks",
+            "permanent": true
+        },
+        {
+            "source": "/proper-way-for-api-integration",
+            "destination": "/posts/proper-way-for-api-integration",
+            "permanent": true
+        },
+        {
+            "source": "/setup-sublime",
+            "destination": "/posts/setup-sublime",
+            "permanent": true
+        },
+        {
+            "source": "/shift-workbench",
+            "destination": "/posts/shift-workbench",
+            "permanent": true
+        },
+        {
+            "source": "/tailwind-css-jit-mode",
+            "destination": "/posts/tailwind-css-jit-mode",
+            "permanent": true
+        },
+        {
+            "source": "/writing-purgeable-html",
+            "destination": "/posts/writing-purgeable-html",
+            "permanent": true
+        }
+    ]
+}
