@@ -2,6 +2,10 @@
 title: Laravel Macros
 date: 2022-02-03
 description: Laravel macros ဆိုတာကတော့ Laravel Framework ရဲ့ feature တစ်ခုပါ။ Laravel macros က Laravel ရဲ့ core components တွေမှာ မရှိတဲ့ functions တွေကို ထပ်ထည့်လို့ရအောင် လုပ်ပေးပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Laravel Macros'
 ---
 
 Laravel macros ဆိုတာကတော့ Laravel Framework ရဲ့ feature တစ်ခုပါ။ Laravel macros က Laravel ရဲ့ core components တွေမှာ မရှိတဲ့ functions တွေကို ထပ်ထည့်လို့ရအောင် လုပ်ပေးပါတယ်။

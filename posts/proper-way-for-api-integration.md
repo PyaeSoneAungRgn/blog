@@ -2,6 +2,10 @@
 title: Proper Way for Api Integration
 date: 2022-09-10
 description: အစကတော့ working-with-data-in-api-integrations ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက််ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Proper Way for Api Integration'
 ---
 
 အစကတော့ [working-with-data-in-api-integrations](https://laravel-news.com/working-with-data-in-api-integrations) ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက််ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။

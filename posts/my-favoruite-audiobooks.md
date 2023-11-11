@@ -2,6 +2,10 @@
 title: My Favourite Audiobooks
 date: 2023-02-06
 description: Audiobook တွေနားထောင်တာက ကျွန်တော်ကို စိတ်တည်ငြိမ်စေပါတယ်။ Audiobook နားထောင်ရတာ ကြိုက်တဲ့သူတွေအတွက် ကျွန်တော်သဘောကျတဲ့ audiobook တချို့ကို sharing လုပ်ချင်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=My Favourite Audiobooks'
 ---
 
 Audiobook တွေနားထောင်တာက ကျွန်တော်ကို စိတ်တည်ငြိမ်စေပါတယ်။ Audiobook နားထောင်ရတာ ကြိုက်တဲ့သူတွေအတွက် ကျွန်တော်သဘောကျတဲ့ audiobook တချို့ကို sharing လုပ်ချင်ပါတယ်။

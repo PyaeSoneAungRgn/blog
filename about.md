@@ -1,6 +1,10 @@
 ---
 title: About
 about: true
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=About'
 ---
 
 <img src="/assets/img/about.jpg" width="256" height="256" alt="About image" class="flex rounded-full bg-contain mx-auto">

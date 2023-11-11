@@ -2,6 +2,10 @@
 title: Laravel Myanmar Tools
 date: 2023-03-10
 description: Laravel Myanmar Tools ဆိုတာကတော့ မြန်မာဘာသာစကား အတွက်လိုအပ်တာတွေကို Laravel framework ရဲ့ core component တွေမှာ extend လုပ်ထားတဲ့ package တစ်ခုဖြစ်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Laravel Myanmar Tools'
 ---
 
 [Laravel Myanmar Tools](https://github.com/PyaeSoneAungRgn/laravel-myanmar-tools) ဆိုတာကတော့ မြန်မာဘာသာစကား အတွက်လိုအပ်တာတွေကို Laravel framework ရဲ့ core component တွေမှာ extend လုပ်ထားတဲ့ package တစ်ခုဖြစ်ပါတယ်။

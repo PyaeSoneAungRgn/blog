@@ -2,6 +2,10 @@
 title: Docsify
 date: 2023-03-15
 description: Docsify ဆိုတာကတော့ documentation site generator တစ်ခုပါ။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Docsify'
 ---
 
 Update: 2023-08-27

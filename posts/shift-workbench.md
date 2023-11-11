@@ -2,6 +2,10 @@
 title: SHIFT Workbench
 date: 2022-11-10
 description: SHIFT Workbench ဆိုတာကတော့ Laravel နဲ့ PHP code တွေကို automation tasks တွေနဲ့ modernize ဖြစ်အောင်လုပ်ပေးတာပါ။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=SHIFT Workbench'
 ---
 
 SHIFT Workbench ဆိုတာကတော့ Laravel နဲ့ PHP code တွေကို automation tasks တွေနဲ့ modernize ဖြစ်အောင်လုပ်ပေးတာပါ။

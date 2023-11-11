@@ -2,6 +2,10 @@
 title: Laravel Zero
 date: 2024-10-08
 description: Laravel Zero ဆိုတာကတော့ cli application တွေရေးဖို့ ဖန်တီးထားတဲ့ micro-framework တစ်ခုပါ။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Laravel Zero'
 ---
 
 [Laravel Zero](https://laravel-zero.com/) ဆိုတာကတော့ cli application တွေရေးဖို့ ဖန်တီးထားတဲ့ micro-framework တစ်ခုပါ။ Laravel ရဲ့ core developer တစ်ယောက်ဖြစ်တဲ့ [Nuno Maduro](https://github.com/nunomaduro) က ဖန်တီးထားတာပါ။

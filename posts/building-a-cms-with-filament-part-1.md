@@ -2,6 +2,10 @@
 title: Building a CMS with Filament (Part - 1)
 date: 2022-04-13
 description: Filament ကိုသုံးပြီး powerful ဖြစ်တဲ့ CMS တစ်ခုကို လွယ်လွယ်ကူကူ တည်ဆောက်လို့ ရပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Building a CMS with Filament (Part - 1)'
 ---
 
 > Filament ကိုသုံးပြီး powerful ဖြစ်တဲ့ CMS တစ်ခုကို လွယ်လွယ်ကူကူ တည်ဆောက်လို့ ရပါတယ်။

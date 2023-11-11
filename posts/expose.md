@@ -2,6 +2,10 @@
 title: Expose
 date: 2021-11-03
 description: Expose ဆိုတာကတော့ ngrok alternative ပါပဲ။ ပြီးတော့ expose ရဲ့ UI က ngrok ထက် ပိုကောင်းပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Expose'
 ---
 
 ကျွန်တော် facebook messenger chatbot ရေးတော့ ကိုယ့် localhost ကို facebook က လာခေါ်ဖို့ public url ထုတ်ပြီး share ဖို့လိုလာတယ်။ ပုံမှန်ဆို [ngrok](https://ngrok.com/) နဲ့ အဆင်ပြေပေမယ့် နောက်ပိုင်း ngrok url ကို facebook က verify လုပ်လို့ မရတာမျိုးတွေဖြစ်လာတယ်။ အဲ့တာနဲ့ ngrok လိုမျိုး တခြား app တွေရှာရင်း expose ကိုသုံးကြည့်လိုက်တာ ပိုပြီး အဆင်ပြေတာ တွေ့ရတယ်။

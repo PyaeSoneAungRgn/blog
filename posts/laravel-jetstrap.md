@@ -2,6 +2,10 @@
 title: Laravel Jetstrap
 date: 2021-02-28
 description: Laravel Jetstream ကို Bootstrap နဲ့ တွဲသုံးမယ်။ Laravel Jetstream မှာတော့ ui အတွက် Tailwind Css ကို default အနေနဲ့သုံးထားပါတယ်။ Tailwind Css ဆိုတာ utility-first framework ဖြစ်ပြီး တော်တော်ရေးလို့ကောင်းတာမို့ tailwind ကို သုံးစေချင်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Laravel Jetstrap'
 ---
 
 > Laravel Jetstream ကို Bootstrap နဲ့ တွဲသုံးမယ်။

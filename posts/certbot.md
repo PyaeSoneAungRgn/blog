@@ -2,6 +2,10 @@
 title: Certbot
 date: 2021-03-11
 description: Certbot သုံးပြီး HTTPS Certificate ကို install လုပ်မယ်။ တကယ်တော့ https ကို install လုပ်ရတာ အရမ်းလွယ်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Certbot'
 ---
 
 > Certbot သုံးပြီး HTTPS Certificate ကို install လုပ်မယ်။

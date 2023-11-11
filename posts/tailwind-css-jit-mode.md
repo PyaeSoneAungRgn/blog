@@ -2,6 +2,10 @@
 title: Tailwind CSS JIT Mode
 date: 2021-09-19
 description: Tailwind CSS v2.1 မှာ Just-in-Time compiler ပါဝင်လာပါတယ်။ Just-in-Time compiler ဆိုတာကတော့ build time မှာ ကိုယ်ရေးတဲ့ Code မှာပါတဲ့ class တွေရဲ့ styles တွေကိုသာ generate လုပ်ပေးတာပါ။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Tailwind CSS JIT Mode'
 ---
 
 Tailwind CSS v2.1 မှာ Just-in-Time compiler ပါဝင်လာပါတယ်။

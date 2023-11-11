@@ -2,6 +2,10 @@
 title: Heroku
 date: 2020-04-12
 description: ကိုယ့်မှာရှိတဲ့ projects တွေကို cloud ပေါ် တင်မယ်။ Heroku ဆိုတာ application တွေကို cloud မှာ တည်ဆောက်လို့ရတဲ့ platform တစ်ခုပါ။ ပြီးတော့ Personal use ဆို free ပါ။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Heroku'
 ---
 
 > ကိုယ့်မှာရှိတဲ့ projects တွေကို cloud ပေါ် တင်မယ်။

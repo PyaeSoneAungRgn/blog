@@ -2,6 +2,10 @@
 title: Laravel Envoy
 date: 2023-01-01
 description: Laravel Envoy ဆိုတာကတော့ remote server ပေါ်မှာ run ချင်တဲ့ task တွေကို Blade syntax နဲ့ လွယ်လွယ်ကူကူ manage လုပ်လို့ရတဲ့ tool တစ်ခုဖြစ်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Laravel Envoy'
 ---
 
 [Laravel Envoy](https://laravel.com/docs/9.x/envoy) ဆိုတာကတော့ remote server ပေါ်မှာ run ချင်တဲ့ task တွေကို Blade syntax နဲ့ လွယ်လွယ်ကူကူ manage လုပ်လို့ရတဲ့ tool တစ်ခုဖြစ်ပါတယ်။

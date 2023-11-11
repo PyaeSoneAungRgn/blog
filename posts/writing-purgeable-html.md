@@ -2,6 +2,10 @@
 title: Writing purgeable HTML
 date: 2021-10-24
 description: Purge အကြောင်း မပြောခင် production CSS build လုပ်တဲ့ အကြောင်း ပြောပါမယ်။ Production ကို build လုပ်ပြီဆိုတာနဲ့ code တွေကို ယေဘူယျအားဖြင့် spaces၊ quotes၊ angle brackets နဲ့ အောက်ကပုံအတိုင်း အပိုင်းပိုင်း ဖြတ်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Writing purgeable HTML'
 ---
 
 Purge အကြောင်း မပြောခင် production CSS build လုပ်တဲ့ အကြောင်း ပြောပါမယ်။ Production ကို build လုပ်ပြီဆိုတာနဲ့ code တွေကို ယေဘူယျအားဖြင့် spaces၊ quotes၊ angle brackets နဲ့ အောက်ကပုံအတိုင်း အပိုင်းပိုင်း ဖြတ်ပါတယ်။

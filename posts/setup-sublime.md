@@ -2,6 +2,10 @@
 title: Setup Sublime Text
 date: 2023-01-17
 description: Sublime Text ကို Laravel development အတွက် setup လုပ်ပါမယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Setup Sublime Text'
 ---
 
 Sublime Text ကို Laravel development အတွက် setup လုပ်ပါမယ်။ အခု setup လုပ်မယ့်ထဲမှာပါတဲ့ feature တချို့ကို အရင်ပြချင်ပါတယ်။

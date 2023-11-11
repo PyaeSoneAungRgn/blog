@@ -2,6 +2,10 @@
 title: Handling 2K req/sec & 50K Connections
 date: 2022-06-11
 description: 2,000 requests per sec ရှိတဲ့ ကျွန်တော်ရဲ့ project တစ်ခုကို load balancing architecture နဲ့ handle လုပ်ထားတာကို knowledge sharing လုပ်ချင်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Handling 2K req/sec & 50K Connections'
 ---
 
 ![Screen Shot 2022-06-10 at 22.03.41.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654882472690/NmzlfePxY.png)

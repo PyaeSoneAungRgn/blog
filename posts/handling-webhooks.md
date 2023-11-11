@@ -2,6 +2,10 @@
 title: Handling Webhooks
 date: 2022-03-13
 description: Webhooks တွေကို handle လုပ်တဲ့အခါ ကျွန်တော် အသုံးပြုတဲ့ နည်းလမ်းတွေကို knowledge sharing လုပ်ပေးချင်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Handling Webhooks'
 ---
 
 Webhooks တွေကို handle လုပ်တဲ့အခါ ကျွန်တော် အသုံးပြုတဲ့ နည်းလမ်းတွေကို knowledge sharing လုပ်ပေးချင်ပါတယ်။

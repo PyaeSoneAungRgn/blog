@@ -2,6 +2,10 @@
 title: Build a Modern Documentation Site
 date: 2023-08-19
 description: Laravel ရဲ့ Forge၊ Envoyer၊ Vapor၊ Jetstream နဲ့ Spark တို့လို့ modern documentation site တစ်ခု ဘယ်လိုတည်ဆောက်လို့ရလဲဆိုတာကို knowledge sharing လုပ်ချင်ပါတယ်။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Build a Modern Documentation Site'
 ---
 
 ကိုယ်တိုင်က opensource package ဒါမှမဟုတ် project တစ်ခုခုကို လုပ်ထားပြီးရင် အဲ့ project ရဲ့ feature တွေ အကုန်လုံးကို လူတိုင်း အလွယ်တကူ သုံးနိုင်ဖို့ documentation ကောင်းကောင်းတစ်ခု လိုပါတယ်။ Documentation ရဲ့ UI ကလည်း ရှင်းရှင်းလင်းလင်းနဲ့ သပ်သပ်ရပ်ရပ် ဖြစ်ဖို့က အရေးကြီးပါတယ်။

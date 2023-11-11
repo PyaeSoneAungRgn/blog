@@ -2,6 +2,10 @@
 title: Laravel Short Schedule
 date: 2021-03-29
 description: Artisan Command တွေကို စက္ကန့်တိုင်း run မယ်။ အရင်ကတော့ command တွေကို စက္ကန့်တိုင်း run ချင်ရင် infinite loop တစ်ခုပတ်ပြီး sleep(1) ဆိုပြီး ရေးချင်တာရေးပါတယ် (လိုက်မလုပ်ပါနဲ့ :3)။ အခုတော့ laravel-short-schedule ကိုသုံးပြီး နည်းစနစ် မှန်မှန် လုပ်လို့ရပါပြီ။
+head:
+  - - meta
+    - property: 'og:image'
+      content: 'https://og.pyaesoneaung.dev/og?title=Laravel Short Schedule'
 ---
 
 > Artisan Command တွေကို စက္ကန့်တိုင်း run မယ်။
