@@ -23,7 +23,7 @@ $this->app->bind(ApiClient::class, function () {
 });
 ```
 
-ဒါဆိုရင် ApiClient class ကို resolve လုပ်ရင် ApiClient ရဲ့ constructor မှာ **https://example.com** နဲ့ **example-key** ကို laravel က pass ပေးသွားမှာ။ တကယ့် real world project မှာတော့ အပေါ်က code လို ရိုးရိုး မ bind ပဲ singleton method ကို သုံးပြီး bind တယ်။
+ဒါဆိုရင် ApiClient class ကို resolve လုပ်ရင် ApiClient ရဲ့ constructor မှာ `https://example.com` နဲ့ `example-key` ကို laravel က pass ပေးသွားမှာ။ တကယ့် real world project မှာတော့ အပေါ်က code လို ရိုးရိုး မ bind ပဲ singleton method ကို သုံးပြီး bind တယ်။
 
 ```php
 $this->app->singleton(ApiClient::class, function () {
