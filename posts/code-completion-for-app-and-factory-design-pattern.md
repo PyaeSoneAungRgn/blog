@@ -49,13 +49,13 @@ $this->app->singleton('apiClient', function () {
 });
 ```
 
-ဆိုလိုတာကတော့ `app('apiClient')` လိုခေါ်ရင် `ApiClient` object ရမယ်ပေါ့။ အဲ့မှာ `ApiClient` class ရဲ့ function ဖြစ်တဲ့ `login()` ကို အခုလို ခေါ်မ​ယ်ဆိုရင် ide က မသိပါဘူး။
+`app('apiClient')` လို့ခေါ်ရင် `ApiClient` object ရပါမယ်။ အဲ့မှာ `ApiClient` class ရဲ့ function ဖြစ်တဲ့ `login()` ကို အခုလို ခေါ်မ​ယ်ဆိုရင် IDE က မသိပါဘူး။
 
 ```php
 app('apiClient')->login($phone, $otp);
 ```
 
-ဘာလို့ မသိတာလဲဆိုတော့ Laravel က dependency ကို runtime မှာ reslove လုပ်သွားလို့ပါ။​ Ide က php runtime မှာ dependency ဘယ်လို reslove လုပ်သွားတယ်ဆိုတာ မသိနိုင်ပါဘူး။ အဲ့တာကို ဖြေရှင်းဖို့ [PhpStorm advanced metadata](https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html) ကို အသုံးပြုလို့ရပါတယ်။ အဲ့တွက် PhpStorm ရှိဖို့လည်းမလိုပါဘူး။ `.phpstorm.meta.php` ကို နားလည်တဲ့ PHP code intelligence တစ်ခုရှိရင် ရပါပြီ။
+ဘာလို့ မသိတာလဲဆိုတော့ Laravel က dependency ကို runtime မှာ reslove လုပ်သွားလို့ပါ။​ IDE က php runtime မှာ dependency ဘယ်လို reslove လုပ်သွားတယ်ဆိုတာ မသိနိုင်ပါဘူး။ အဲ့တာကို ဖြေရှင်းဖို့ [PhpStorm advanced metadata](https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html) ကို အသုံးပြုလို့ရပါတယ်။ အဲ့တွက် PhpStorm ရှိဖို့လည်းမလိုပါဘူး။ `.phpstorm.meta.php` ကို နားလည်တဲ့ PHP code intelligence တစ်ခုရှိရင် ရပါပြီ။
 
 နမူနာအနေနဲ့ vscode မှာ setup လုပ်ပါမယ်။ အရင်ဆုံး `.phpstorm.meta.php` ကို နားလည်တဲ့ [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) extension သွင်းထားရပါမယ်။ ပြီးရင် `.phpstorm.meta.php` ဆိုတဲ့ file တစ်ခု create ပြီး အခုလိုရေးပါမယ်။
 
@@ -69,8 +69,8 @@ namespace PHPSTORM_META {
 }
 ```
 
-`app()` function မှာ `apiClient` string နဲ့လာခေါ်ရင် return type က `ApiClient` class လို သတ်မှတ်လိုက်တာပါ။ ဒါဆိုရင် vscode က အခုလို သိပါပြီ။
+`app()` function ကို `apiClient` string နဲ့လာခေါ်ရင် return type က `ApiClient` class လို့ သတ်မှတ်လိုက်တာပါ။ ဒါဆိုရင် vscode က အခုလို သိပါပြီ။
 
-![code-completion-for-app-and-factory-design-pattern-img-1.png](https://www.pyaesoneaung.dev/assets/img/blog/code-completion-for-app-and-factory-design-pattern-img-1.png.png)
+![code-completion-for-app-and-factory-design-pattern-img-1.png](https://www.pyaesoneaung.dev/assets/img/blog/code-completion-for-app-and-factory-design-pattern-img-1.png)
 
-Ide က သိစေချင်တဲ့ တခြား dependency injection တွေကိုလည်း map array ထဲမှာ ထပ်ထည့်လို့ရပါတယ်။ အခုလို ကိုယ်တိုင်မလုပ်ချင်ရင် [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper) package သွင်းပြီး `php artisan ide-helper:meta` ဆိုပြီး run လည်းရပါတယ်။ သူကတော့ ရှိသမျှ class တွေ အားလုံးအတွက် `.phpstorm.meta.php` file မှာ generate လုပ်သွားမှာပါ။
+IDE က သိစေချင်တဲ့ တခြား dependency injection တွေကိုလည်း map array ထဲမှာ ထပ်ထည့်လို့ရပါတယ်။ အခုလို ကိုယ်တိုင်မလုပ်ချင်ရင် [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper) package သွင်းပြီး `php artisan ide-helper:meta` ဆိုပြီး run လည်းရပါတယ်။ သူကတော့ ရှိသမျှ class တွေ အားလုံးအတွက် `.phpstorm.meta.php` file မှာ generate လုပ်သွားမှာပါ။
