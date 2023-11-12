@@ -23,7 +23,7 @@ $this->app->bind(ApiClient::class, function () {
 });
 ```
 
-ဒါဆိုရင် ApiClient class ကို resolve လုပ်ရင် ApiClient ရဲ့ constructor မှာ `https://example.com` နဲ့ `example-key` ကို laravel က pass ပေးသွားမှာ။ တကယ့် real world project မှာတော့ အပေါ်က code လို ရိုးရိုး မ bind ပဲ singleton method ကို သုံးပြီး bind တယ်။
+ဒါဆိုရင် ApiClient class ကို resolve လုပ်ရင် ApiClient ရဲ့ constructor မှာ `https://example.com` နဲ့ `example-key` ကို laravel က pass ပေးသွားမှာပါ။ တကယ့် real world project မှာတော့ အပေါ်က code လို ရိုးရိုး မ bind ဘဲ singleton method ကို သုံးပြီး bind ပါတယ်။
 
 ```php
 $this->app->singleton(ApiClient::class, function () {
@@ -31,7 +31,7 @@ $this->app->singleton(ApiClient::class, function () {
 });
 ```
 
-ဘာကွာလဲဆိုရင် singleton method က တစ်ခါပဲ resolve လုပ်ပေးမှာ။ `app(ApiClient::class)` ဆိုပြီး object တစ်ခါဆောက်ပြီးရင် နောက်တစ်ခါ နောက်တစ်နေရာမှာ `app(ApiClient::class)` လို့ခေါ်လည်း object အသစ်မဆောက်ပဲ ပထမ ဆောက်ထားတဲ့ object ပဲ return ပြန်မှာပါ။
+ဘာကွာလဲဆိုရင် singleton method က တစ်ခါပဲ resolve လုပ်ပေးမှာ။ `app(ApiClient::class)` ဆိုပြီး object တစ်ခါဆောက်ပြီးရင် နောက်တစ်ခါ နောက်တစ်နေရာမှာ `app(ApiClient::class)` လို့ခေါ်လည်း object အသစ်မဆောက်ဘဲ ပထမ ဆောက်ထားတဲ့ object ပဲ return ပြန်မှာပါ။
 
 ### Resolving
 
