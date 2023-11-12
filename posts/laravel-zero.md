@@ -1,6 +1,6 @@
 ---
 title: Laravel Zero
-date: 2024-10-08
+date: 2023-10-08
 description: Laravel Zero ဆိုတာကတော့ cli application တွေရေးဖို့ ဖန်တီးထားတဲ့ micro-framework တစ်ခုပါ။
 head:
   - - meta
