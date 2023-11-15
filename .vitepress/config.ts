@@ -14,6 +14,13 @@ export default defineConfig({
         href: '/favicon.ico'
       }
     ],
+    [
+      'link',
+      {
+        rel: 'me',
+        href: 'https://burma.social/@psa'
+      }
+    ],
     ['script', {
       async: '',
       src: 'https://www.googletagmanager.com/gtag/js?id=G-ZQPYBNC3CY'
