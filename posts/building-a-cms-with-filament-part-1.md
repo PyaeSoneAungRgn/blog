@@ -24,7 +24,7 @@ password: admin123
 
 ![ScreenShot.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1649830219586/108TMOEbF.png)
 
-Project ကတော့ရှင်းပါတယ််။ Product ကို Category အလိုက် create လုပ်မယ်။ ပြီးရင် Customer က Product တွေကို Order တင်မယ်။
+Project ကတော့ရှင်းပါတယ်။ Product ကို Category အလိုက် create လုပ်မယ်။ ပြီးရင် Customer က Product တွေကို Order တင်မယ်။
 
 ### Requirements
 
@@ -84,7 +84,7 @@ public static function table(Table $table): Table
 ```
 
 $table->columns မှာ category အတွက် ပေါ်စေချင်တဲ့ columns တွေ array နဲ့ ထည့်ပေးရုံပါပဲ။ sortable() နဲ့ searchable() ထည့်တာက name column ကို sorting စီလို့ရမယ်၊ ရှာလို့ရမယ်လို့ သတ်မှတ်တာပါ။
-filters() ကတော့ category မှာမှ show: true ဖြစ်တာပဲလိုချင်တာတို့၊ active ဖြစ်တာပဲ လိုချင်တာတို့ စတာတွေကို UI မှာ အလွယ်တကူ filter လုပ်လို့ရအောင် ပြပေးဖို့အတွက်ပါ။ ဒါဆိုရင်် အခုလို table ရပါပြီ။
+filters() ကတော့ category မှာမှ show: true ဖြစ်တာပဲလိုချင်တာတို့၊ active ဖြစ်တာပဲ လိုချင်တာတို့ စတာတွေကို UI မှာ အလွယ်တကူ filter လုပ်လို့ရအောင် ပြပေးဖို့အတွက်ပါ။ ဒါဆိုရင် အခုလို table ရပါပြီ။
 
 ![Screen Shot 2022-04-13 at 14.47.48.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1649838751966/MdEQnlCoK.png)
 

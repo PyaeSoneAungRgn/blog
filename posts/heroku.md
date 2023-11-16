@@ -49,7 +49,7 @@ Heroku CLI လိုပါတယ်။ [ဒီမှာ](https://devcenter.herok
 heroku login
 ```
 
-ဆိုပြီး login ၀င်ပါ။ ပြီးရင် project root folder ထဲကနေ Heroku app တစ်ခု create လုပ်ပါမယ်။
+ဆိုပြီး login ဝင်ပါ။ ပြီးရင် project root folder ထဲကနေ Heroku app တစ်ခု create လုပ်ပါမယ်။
 
 ```bash
 heroku create stayathomemyanmar

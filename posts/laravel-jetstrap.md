@@ -12,7 +12,7 @@ head:
 
 Laravel Jetstream မှာတော့ ui အတွက် [Tailwind Css](https://tailwindcss.com) ကို default အနေနဲ့သုံးထားပါတယ်။ [Tailwind Css](https://tailwindcss.com) ဆိုတာ utility-first framework ဖြစ်ပြီး တော်တော်ရေးလို့ကောင်းတာမို့ tailwind ကို သုံးစေချင်ပါတယ်။
 
-Bootstrap ရဲ့ အသင့်သုံး components တွေ၊  ရိုးရှင်းတဲ့ layouts တွေ သုံးပြီး Admin Panel တည်ဆောက်ဖို့ ကျွန်တော်အသုံးပြုတဲ့ နည်းလမ်းကို ပြောချင်ပါတယ်။
+Bootstrap ရဲ့ အသင့်သုံး components တွေ၊ ရိုးရှင်းတဲ့ layouts တွေ သုံးပြီး Admin Panel တည်ဆောက်ဖို့ ကျွန်တော်အသုံးပြုတဲ့ နည်းလမ်းကို ပြောချင်ပါတယ်။
 
 အရင်ဆုံး laravel 8 project တစ်ခု create လုပ်ပါမယ်။
 

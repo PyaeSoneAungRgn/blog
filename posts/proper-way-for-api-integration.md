@@ -1,14 +1,14 @@
 ---
 title: Proper Way for Api Integration
 date: 2022-09-10
-description: အစကတော့ working-with-data-in-api-integrations ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက််ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။
+description: အစကတော့ working-with-data-in-api-integrations ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက်ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။
 head:
   - - meta
     - property: 'og:image'
       content: 'https://og.pyaesoneaung.dev/og?title=Proper Way for Api Integration'
 ---
 
-အစကတော့ [working-with-data-in-api-integrations](https://laravel-news.com/working-with-data-in-api-integrations) ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက််ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။
+အစကတော့ [working-with-data-in-api-integrations](https://laravel-news.com/working-with-data-in-api-integrations) ကို သဘောကျလို့ ဘာသာပြန်မလို့ပါ။ ပိုပြီး စိတ်ဝင်စားဖို့ ကောင်းသွားအောင် တိုက်ရိုက်ဘာသာမပြန်တော့ဘဲ demo game project တစ်ခုရေးပြီး api integration လုပ်တာကို knowledge sharing လုပ်ချင်ပါတယ်။
 
 ### Project Overview
 
@@ -312,7 +312,7 @@ class Question
 }
 ```
 
-Opentdb api response က correct answer ကို string နဲ့ တစ်ခုပြန်ပြီး incorrect answers တွေကို array နဲ့ တစ်ခုပြန်ပါတယ်။ Business logic အရ မေးခွန်းရယ််၊ အဖြေမှန်ရယ်၊ အဖြေတွေအားလုံး random ရောထားတာ ရယ်ပဲ လိုတဲ့ အတွက် toArray() function မှာ အခုလိုရေးထားတာပါ။
+Opentdb api response က correct answer ကို string နဲ့ တစ်ခုပြန်ပြီး incorrect answers တွေကို array နဲ့ တစ်ခုပြန်ပါတယ်။ Business logic အရ မေးခွန်းရယ်၊ အဖြေမှန်ရယ်၊ အဖြေတွေအားလုံး random ရောထားတာ ရယ်ပဲ လိုတဲ့ အတွက် toArray() function မှာ အခုလိုရေးထားတာပါ။
 
 Data Object ပြီးရင် response array ကနေ object ပြောင်းဖို့ Data Factory တစ်ခုဆောက်ဖို့ လိုပါတယ်။
 

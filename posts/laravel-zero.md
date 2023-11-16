@@ -10,11 +10,11 @@ head:
 
 [Laravel Zero](https://laravel-zero.com/) ဆိုတာကတော့ cli application တွေရေးဖို့ ဖန်တီးထားတဲ့ micro-framework တစ်ခုပါ။ Laravel ရဲ့ core developer တစ်ယောက်ဖြစ်တဲ့ [Nuno Maduro](https://github.com/nunomaduro) က ဖန်တီးထားတာပါ။
 
-နမူနာအနေနဲ့ ipinfo ဆိုတဲ့ cli application တစ်ခုရေးပြီး [Packagist](https://packagist.org/) ကနေ distribute လုပ်ပါမယ်။ ipinfo မှာ ကိုယ့်ရဲ့ current ip information ကို [ip-api.com](https://ip-api.com/) က fetch လုပ်ပြီး cli မှာ ကြည့်ကောင်းမယ့် UI တစ်ခုနဲ့ ပြပါမယ်။
+နမူနာအနေနဲ့ ipinfo ဆိုတဲ့ cli application တစ်ခုရေးပြီး [Packagist](https://packagist.org/) ကနေ distribute လုပ်ပါမယ်။ ipinfo မှာ ကိုယ့်ရဲ့ current ip information ကို [ip-api.com](https://ip-api.com/) က fetch လုပ်ပြီး cli မှာ ကြည့်ကောင်းမယ့် UI တစ်ခုနဲ့ ပြပါမယ်။
 
 ## Installation
 
-Composer ကနေတဆင့် install လုပ်ပါမယ်။
+Composer ကနေတဆင့် install လုပ်ပါမယ်။
 
 ```bash
 composer create-project --prefer-dist laravel-zero/laravel-zero ipinfo
@@ -32,7 +32,7 @@ php ipinfo
 
 ## Create Command
 
-Code စရေးဖို့ အတွက် laravel မှာလိုပဲ​ command တစ်ခု create လုပ်ဖို့လိုပါတယ်။​
+Code စရေးဖို့ အတွက် laravel မှာလိုပဲ command တစ်ခု create လုပ်ဖို့လိုပါတယ်။
 
 ```bash
 php ipinfo make:command ipinfo
@@ -146,7 +146,7 @@ php ipinfo app:install http
 
 ## UI
 
-UI ကို တော့ [Termwind](https://github.com/nunomaduro/termwind) နဲ့ ရေးပါမယ်။​ Termwind နဲ့ဆိုရင် cli ရဲ့ ui ကို [Tailwind CSS](https://tailwindcss.com/) လိုမျိုးရေးလို့ရပါတယ်။
+UI ကို တော့ [Termwind](https://github.com/nunomaduro/termwind) နဲ့ ရေးပါမယ်။ Termwind နဲ့ဆိုရင် cli ရဲ့ ui ကို [Tailwind CSS](https://tailwindcss.com/) လိုမျိုးရေးလို့ရပါတယ်။
 
 `app/Commands/Ipinfo.php`
 
@@ -207,7 +207,7 @@ public function handle()
 
 ဒီအပိုင်းလေးကို ရှင်းပါမယ်။
 
-`flex` သုံးထားတာက သူ့ထဲက item တွေကို အလျှားလိုက်ပြချင်လို့ပါ။ ဒုတိယ span tag မှာ သုံးတာတဲ့ `flex-1 content-repeat-['.']` က နေရာလွတ်တွေ အကုန်လုံးကို `...` တွေနဲ့ ဖြည့်ချင်လို့ပါ။ ဒါဆိုရင် အခုလို UI ကို ရပါပြီ။
+`flex` သုံးထားတာက သူ့ထဲက item တွေကို အလျှားလိုက်ပြချင်လို့ပါ။ ဒုတိယ span tag မှာ သုံးတာတဲ့ `flex-1 content-repeat-['.']` က နေရာလွတ်တွေ အကုန်လုံးကို `...` တွေနဲ့ ဖြည့်ချင်လို့ပါ။ ဒါဆိုရင် အခုလို UI ကို ရပါပြီ။
 
 ![laravel-zero-img-1](https://www.pyaesoneaung.dev/assets/img/blog/laravel-zero-img-1.png)
 
@@ -221,7 +221,7 @@ php ipinfo app:build ipinfo
 
 အခုလို build လုပ်လို့ ရပါတယ်။
 
-ဒါဆိုရင် `builds` folder အောက်မှာ `ipinfo` ဆိုတဲ့ standalone app တစ်ခုရပါပြီ။ Standalone app ကို အခုလို run ကြည့်လို့ရပါတယ်။
+ဒါဆိုရင် `builds` folder အောက်မှာ `ipinfo` ဆိုတဲ့ standalone app တစ်ခုရပါပြီ။ Standalone app ကို အခုလို run ကြည့်လို့ရပါတယ်။
 
 ```bash
 cd builds
@@ -325,7 +325,7 @@ cd builds
 
 ```
 
-ဘာလို့ အခုလိုပြင်ရလည်း သိချင်ရင် [ဒီမှာ](https://laravel-zero.com/docs/build-a-standalone-application#distribute-via-packagist) သွားကြည့်လို့ရပါတယ်။
+ဘာလို့ အခုလိုပြင်ရလည်း သိချင်ရင် [ဒီမှာ](https://laravel-zero.com/docs/build-a-standalone-application#distribute-via-packagist) သွားကြည့်လို့ရပါတယ်။
 
 ပြီးရင်တော့ ပြန် build လုပ်ဖို့လိုပါတယ်။
 
@@ -379,6 +379,6 @@ ipinfo
 
 ဆိုပြီး သုံးလို့ရပါပြီ။
 
-ဒါဆိုရင်တော့ Laravel Zero ကိုသုံးပြီး ကိုယ့်စိတ်ကြိုက် cli app တွေ ဖန်တီးနိုင်မယ်လို့ ထင်ပါတယ်။ Laravel Zero မှာ တခြား feature တွေ အများကြီးရှိပါသေးတယ်။​ [Official Documentation](https://laravel-zero.com/docs/introduction) မှာ ဆက်လက် လေ့လာလို့ ရပါတယ်။
+ဒါဆိုရင်တော့ Laravel Zero ကိုသုံးပြီး ကိုယ့်စိတ်ကြိုက် cli app တွေ ဖန်တီးနိုင်မယ်လို့ ထင်ပါတယ်။ Laravel Zero မှာ တခြား feature တွေ အများကြီးရှိပါသေးတယ်။ [Official Documentation](https://laravel-zero.com/docs/introduction) မှာ ဆက်လက် လေ့လာလို့ ရပါတယ်။
 
 Code တွေကို refactor လုပ်တာနဲ့ test တွေရေးပြီး GitHub Action setup လုပ်တာကို အချိန်ရရင် ဆက်ရေးသွားပါမယ်။
