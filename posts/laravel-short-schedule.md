@@ -20,7 +20,7 @@ head:
 composer require spatie/laravel-short-schedule
 ```
 
-ပြီးရင် **app\\Console\\Kernel.php** မှာ **shortSchedule** ဆိုတဲ့ function တစ်ခုလုပ်ပြီး ကိုယ် run ချင်တဲ့ command ထည့်ပါမယ်။
+ပြီးရင် **app\\Console\\Kernel.php** မှာ **shortSchedule** ဆိုတဲ့ function တစ်ခုလုပ်ပြီး ကိုယ် run ချင်တဲ့ command ထည့်ပါမယ်။
 
 ```php
 protected function shortSchedule(\Spatie\ShortSchedule\ShortSchedule $shortSchedule)
@@ -57,7 +57,7 @@ $shortSchedule->command('inspire')->withoutOverlapping()->everySecond();
 $shortSchedule->command('inspire')->between('09:00', '17:00')->everySecond();
 ```
 
-တခြား option တွေလည်းရှိပါသေးတယ်။ [ဒီမှာ](https://github.com/spatie/laravel-short-schedule#usage) ကြည့်လို့ရပါတယ်။
+တခြား option တွေလည်းရှိပါသေးတယ်။ [ဒီမှာ](https://github.com/spatie/laravel-short-schedule#usage) ကြည့်လို့ရပါတယ်။
 
 Production မှာဆိုရင်
 

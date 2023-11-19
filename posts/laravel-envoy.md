@@ -36,7 +36,7 @@ Project ရဲ့ root folder အောက်မှာ `Envoy.blade.php` ဆိ�
 @endtask
 ```
 
-`@servers` မှာ ကိုယ့်ရဲ့ remote server ထည့်ပေးရပါမယ်။ Load balancing သုံးတယ်ဆိုရင် web array ထဲမှာ လိုသလို ထပ်ထည့်လို့ ရပါတယ်။
+`@servers` မှာ ကိုယ့်ရဲ့ remote server ထည့်ပေးရပါမယ်။ Load balancing သုံးတယ်ဆိုရင် web array ထဲမှာ လိုသလို ထပ်ထည့်လို့ ရပါတယ်။
 
 `@task('deploy', ['on' => 'web'])` ဆိုတာကတော့ deploy ဆိုတဲ့ နာမည်နဲ့ task တစ်ခု create လုပ်ပြီး web array ထဲက server တွေမှာ run မယ်လို့ သတ်မှတ်လိုက်တာပါ။
 
@@ -54,9 +54,9 @@ log task ကို run ဖို့အတွက်
 php vendor/bin/envoy run log
 ```
 
-ဒါဆိုရင် git pull ဖို့ server ထဲဝင်တဲ့ ကိစ္စတွေ၊ error log ကြည့်ဖို့ server ထဲဝင်တဲ့ ကိစ္စတွေ၊ load balancing မှာ server တစ်ခုချင်းဆီ ဝင် pull ရတဲ့ ကိစ္စတွေကို တစ်ဖက်တစ်လမ်းက ဖြေရှင်းနိုင်မယ်လို့ ယုံကြည်ပါတယ်။
+ဒါဆိုရင် git pull ဖို့ server ထဲဝင်တဲ့ ကိစ္စတွေ၊ error log ကြည့်ဖို့ server ထဲဝင်တဲ့ ကိစ္စတွေ၊ load balancing မှာ server တစ်ခုချင်းဆီ ဝင် pull ရတဲ့ ကိစ္စတွေကို တစ်ဖက်တစ်လမ်းက ဖြေရှင်းနိုင်မယ်လို့ ယုံကြည်ပါတယ်။
 
-Envoy မှာ variables တွေထပ်ထည့်လို့ရပါတယ်။
+Envoy မှာ variables တွေထပ်ထည့်လို့ရပါတယ်။
 
 ```bash
 php vendor/bin/envoy run deploy --branch=master

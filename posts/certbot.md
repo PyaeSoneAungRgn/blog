@@ -53,7 +53,7 @@ Redirect လုပ်မလားမေးရင် redirect လုပ်တာ�
 
 သက်တမ်းမကုန်ခင် renew လုပ်ပေးဖို့လိုပါတယ်။
 
-Renew လုပ်ဖို့အတွက် Cron Job မှာ ဒီလို ထည့်ပါမယ်။
+Renew လုပ်ဖို့အတွက် Cron Job မှာ ဒီလို ထည့်ပါမယ်။
 
 ```
 1 1 * * * certbot renew --post-hook "systemctl reload nginx"

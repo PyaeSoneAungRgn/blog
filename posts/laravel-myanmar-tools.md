@@ -166,7 +166,7 @@ Carbon::parse('2023-05-01')->isLabourDay(); // true
 Carbon::parse('2023-07-19')->isMartyrsDay(); // true
 ```
 
-အသုံးပြုပုံ အသေးစိတ်ကို [https://laravel-myanmar-tools.com](https://laravel-myanmar-tools.com/#/) မှာ ကြည့်လို့ရပါတယ်။
+အသုံးပြုပုံ အသေးစိတ်ကို [https://laravel-myanmar-tools.com](https://laravel-myanmar-tools.com/#/) မှာ ကြည့်လို့ရပါတယ်။
 
 ### Conclusion
 

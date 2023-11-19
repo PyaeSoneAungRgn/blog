@@ -60,7 +60,7 @@ php artisan make:filament-resource Category
 
 ![Screen Shot 2022-04-13 at 14.38.09.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1649837318653/QldAO858b.png)
 
-**_CategoryResource.php_** မှာ **form()** နဲ့ **table()** ဆိုတဲ့ function ၂ ခု ကိုပဲ အဓိကထား ကြည့်သွားပါမယ်။
+**_CategoryResource.php_** မှာ **form()** နဲ့ **table()** ဆိုတဲ့ function ၂ ခု ကိုပဲ အဓိကထား ကြည့်သွားပါမယ်။
 
 **form()** ရဲ့ function အတွင်းထဲမှာ category from ဆောက်သွားမှာဖြစ်ပြီး **table()** function အတွင်းထဲမှာတော့ category table ဆောက်သွားမှာပါ။
 
@@ -83,7 +83,7 @@ public static function table(Table $table): Table
 }
 ```
 
-$table->columns မှာ category အတွက် ပေါ်စေချင်တဲ့ columns တွေ array နဲ့ ထည့်ပေးရုံပါပဲ။ sortable() နဲ့ searchable() ထည့်တာက name column ကို sorting စီလို့ရမယ်၊ ရှာလို့ရမယ်လို့ သတ်မှတ်တာပါ။
+$table->columns မှာ category အတွက် ပေါ်စေချင်တဲ့ columns တွေ array နဲ့ ထည့်ပေးရုံပါပဲ။ sortable() နဲ့ searchable() ထည့်တာက name column ကို sorting စီလို့ရမယ်၊ ရှာလို့ရမယ်လို့ သတ်မှတ်တာပါ။
 filters() ကတော့ category မှာမှ show: true ဖြစ်တာပဲလိုချင်တာတို့၊ active ဖြစ်တာပဲ လိုချင်တာတို့ စတာတွေကို UI မှာ အလွယ်တကူ filter လုပ်လို့ရအောင် ပြပေးဖို့အတွက်ပါ။ ဒါဆိုရင် အခုလို table ရပါပြီ။
 
 ![Screen Shot 2022-04-13 at 14.47.48.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1649838751966/MdEQnlCoK.png)
@@ -121,7 +121,7 @@ public static function form(Form $form): Form
 }
 ```
 
-Card::make() ဆိုတာကတော့ textbox တွေကို UI မှာ div တစ်ခုထဲထည့်ချင်လိုပါ။ Grid::make() ကတော့ css grid div တစ်ခုလိုချင်လို့ပါ။ Default က column 2 ခုပါပါတယ်။ TextInput::make('name') ကတော့ category name ရိုက်ထည့်ဖို့ textbox တစ်ခုလုပ်တာပါ။ reactive() ဆိုကတော့ အဲ့ field မှာ တစ်ခုခု change တိုင်း form ကို update လုပ်မယ်လို့ဆိုလိုတာပါ။
+Card::make() ဆိုတာကတော့ textbox တွေကို UI မှာ div တစ်ခုထဲထည့်ချင်လိုပါ။ Grid::make() ကတော့ css grid div တစ်ခုလိုချင်လို့ပါ။ Default က column 2 ခုပါပါတယ်။ TextInput::make('name') ကတော့ category name ရိုက်ထည့်ဖို့ textbox တစ်ခုလုပ်တာပါ။ reactive() ဆိုကတော့ အဲ့ field မှာ တစ်ခုခု change တိုင်း form ကို update လုပ်မယ်လို့ဆိုလိုတာပါ။
 
 ```php
 ->afterStateUpdated(function (Closure $set, $state) {

@@ -116,4 +116,4 @@ Run ပြီးသွားရင် github မှာ Workbench ကနေ pull 
 
 Pull request ကို merge လုပ်လိုက်ရင် အားလုံးပြီးပါပြီ။
 
-[Laravel SHIFT](https://laravelshift.com) ကနေပဲ နောက်ထပ် [mix ကနေ vite](https://laravelshift.com/convert-laravel-mix-to-vite) ကို free upgrade လုပ်တဲ့ services တွေလည်းရှိပါတယ်။ အသေးစိတ်ကို [ဒီမှာ](https://laravelshift.com) ကြည့်လို့ရပါတယ်။
+[Laravel SHIFT](https://laravelshift.com) ကနေပဲ နောက်ထပ် [mix ကနေ vite](https://laravelshift.com/convert-laravel-mix-to-vite) ကို free upgrade လုပ်တဲ့ services တွေလည်းရှိပါတယ်။ အသေးစိတ်ကို [ဒီမှာ](https://laravelshift.com) ကြည့်လို့ရပါတယ်။

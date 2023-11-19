@@ -38,7 +38,7 @@ Sublime မှာ setting တွေပြင်မယ်ဆိုရင် `cmd+
 
 ### Apperance
 
-ကျွန်တော်အတွက်တော့ editor က ကြည့်ကောင်းဖို့ အရမ်းအရေးကြီးပါတယ်။
+ကျွန်တော်အတွက်တော့ editor က ကြည့်ကောင်းဖို့ အရမ်းအရေးကြီးပါတယ်။
 
 ![setup-sublime-text-img-1](https://www.pyaesoneaung.dev/assets/img/blog/setup-sublime-text-img-1.png)
 
@@ -138,11 +138,11 @@ PHP Companion ကလည်း sublime မှာ php ရေးရင် မရှ
 Command Palette -> Package Control: Install Package -> PHP Companion
 ```
 
-သူမှာ default Keybinding မပါပါဘူး။ ကိုယ့်ဘာသာထည့်ပေးရမှာပါ။
+သူမှာ default Keybinding မပါပါဘူး။ ကိုယ့်ဘာသာထည့်ပေးရမှာပါ။
 
 ### Keybinding
 
-Go to definition တို့၊ find all references တို့ကို UI ကနေမလုပ်ဘဲ keyborad shortcut ကနေ လုပ်လို့ရအောင် keybinding ထည့်ပေးဖို့လိုပါတယ်။
+Go to definition တို့၊ find all references တို့ကို UI ကနေမလုပ်ဘဲ keyborad shortcut ကနေ လုပ်လို့ရအောင် keybinding ထည့်ပေးဖို့လိုပါတယ်။
 
 Keybinding ကို
 

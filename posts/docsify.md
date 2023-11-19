@@ -10,7 +10,7 @@ head:
 
 Update: 2023-08-27
 
-လက်ရှိစာရေးနေတဲ့ အချိန်မှာတော့ Docsify အစား VitePress ကို ပြောင်းသုံးနေပါပြီ။ အသေးစိတ်ကို [ဒီမှာ](https://www.pyaesoneaung.dev/build-a-modern-documentation-site) ကြည့်လို့ ရပါတယ်။
+လက်ရှိစာရေးနေတဲ့ အချိန်မှာတော့ Docsify အစား VitePress ကို ပြောင်းသုံးနေပါပြီ။ အသေးစိတ်ကို [ဒီမှာ](https://www.pyaesoneaung.dev/build-a-modern-documentation-site) ကြည့်လို့ ရပါတယ်။
 
 <hr />
 
@@ -46,7 +46,7 @@ cd to-raw-sql
 docsify init ./docs
 ```
 
-လို့ run လိုက်ရင် `docs` ဆိုတဲ့ folder အသစ်ဆိုတဲ့ တစ်ခု create လုပ်သွားပါမယ်။ `docs` folder ထဲမှာ `index.html` နဲ့ `README.md` ဆိုပြီး file နှစ်ခုတွေ့ရပါမယ်။ (ဒီနေရာမှာ `docs` folder ထဲက `README.md` file က root folder ရဲ့ `README.md` file နဲ့ အတူတူဖြစ်နေမှာပါ။ Docsify က auto ကူးထည့်ပေးထားတာပါ။)
+လို့ run လိုက်ရင် `docs` ဆိုတဲ့ folder အသစ်ဆိုတဲ့ တစ်ခု create လုပ်သွားပါမယ်။ `docs` folder ထဲမှာ `index.html` နဲ့ `README.md` ဆိုပြီး file နှစ်ခုတွေ့ရပါမယ်။ (ဒီနေရာမှာ `docs` folder ထဲက `README.md` file က root folder ရဲ့ `README.md` file နဲ့ အတူတူဖြစ်နေမှာပါ။ Docsify က auto ကူးထည့်ပေးထားတာပါ။)
 
 Preview ကြည်ဖို့အတွက်
 
@@ -58,7 +58,7 @@ docsify serve docs
 
 ![docsify-1.png](https://www.pyaesoneaung.dev/assets/img/blog/docsify-1.png)
 
-ဒီနေရမှာ code တွေ syntax highlight ဖြစ်အောင် plugin ထည့်ပေးရပါမယ်။
+ဒီနေရမှာ code တွေ syntax highlight ဖြစ်အောင် plugin ထည့်ပေးရပါမယ်။
 
 `index.html` မှာ
 
@@ -67,8 +67,8 @@ docsify serve docs
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 ```
 
-ဆိုပြီး body အပိတ် tag မတိုင်ခင် ထည့်လိုက်ရင် ရပါပြီ။ Final version ကို [ဒီမှာ](https://pyaesoneaungrgn.github.io/to-raw-sql/#/) ကြည့်လို့ရပါတယ်။
+ဆိုပြီး body အပိတ် tag မတိုင်ခင် ထည့်လိုက်ရင် ရပါပြီ။ Final version ကို [ဒီမှာ](https://pyaesoneaungrgn.github.io/to-raw-sql/#/) ကြည့်လို့ရပါတယ်။
 
 ### Conclusion
 
-တခြား theme ချိန်းတာတို့၊ plugin တွေထည့်တာတို့၊ customization လုပ်တာတွေကို [Docify Documentation](https://docsify.js.org/#/?id=docsify) မှာလေ့လာလို့ရပါတယ်။ ကျွန်တော်ကိုယ်တိုင်လည်း Docify ကိုသုံးပြီး [Laravel Myanmar Tools](https://laravel-myanmar-tools.com/#/) documentation ကိုရေးထားပါတယ်။ Document's source Code ကိုတော့ [ဒီမှာ](https://github.com/Laravel-Myanmar-Tools/docs) ကြည့်လို့ရပါတယ်။ သိချင်တာရှိရင်လည်း မေးလို့ရပါတယ်ခဗျာ။
+တခြား theme ချိန်းတာတို့၊ plugin တွေထည့်တာတို့၊ customization လုပ်တာတွေကို [Docify Documentation](https://docsify.js.org/#/?id=docsify) မှာလေ့လာလို့ရပါတယ်။ ကျွန်တော်ကိုယ်တိုင်လည်း Docify ကိုသုံးပြီး [Laravel Myanmar Tools](https://laravel-myanmar-tools.com/#/) documentation ကိုရေးထားပါတယ်။ Document's source Code ကိုတော့ [ဒီမှာ](https://github.com/Laravel-Myanmar-Tools/docs) ကြည့်လို့ရပါတယ်။ သိချင်တာရှိရင်လည်း မေးလို့ရပါတယ်ခဗျာ။

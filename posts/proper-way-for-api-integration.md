@@ -48,7 +48,7 @@ class OpentdbService
 
 PHP 8 ကနေ စပြီး ပါလာတဲ့ **Readonly Property** နဲ့ **named arguments** ကိုသုံးထားပါတယ်။
 
-Api endpoint နဲ့ token ကို `services.php` မှာ အခုလို ထည့်ပါမယ်။
+Api endpoint နဲ့ token ကို `services.php` မှာ အခုလို ထည့်ပါမယ်။
 
 `config/services.php`
 

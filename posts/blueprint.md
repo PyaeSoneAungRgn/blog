@@ -52,7 +52,7 @@ Created:
 - app/Models/Article.php
 ```
 
-အဲ့ထဲကမှာ `2022_11_26_121327_create_articles_table.php` ကို ကြည့်ရင်
+အဲ့ထဲကမှာ `2022_11_26_121327_create_articles_table.php` ကို ကြည့်ရင်
 
 ```php
 <?php
@@ -144,7 +144,7 @@ class Article extends Model
 
 Category ကို BelongsTo relationship ချိတ်ထားပေးပါတယ်။
 
-လိုအပ်တဲ့ models တွေ create လုပ်ပြီးပြီဆိုတော့ Article CRUD အတွက် `index()` နဲ့ `store()` functions တွေပါတဲ့ Controller တစ်ခုဆောက်ပါမယ်။ Controller ဆောက်ဖို့ `draft.yaml` မှာပဲ ခုလိုထပ်ထည့်ပါမယ်။
+လိုအပ်တဲ့ models တွေ create လုပ်ပြီးပြီဆိုတော့ Article CRUD အတွက် `index()` နဲ့ `store()` functions တွေပါတဲ့ Controller တစ်ခုဆောက်ပါမယ်။ Controller ဆောက်ဖို့ `draft.yaml` မှာပဲ ခုလိုထပ်ထည့်ပါမယ်။
 
 ```yaml
 models:
@@ -193,7 +193,7 @@ Updated:
 - routes/web.php
 ```
 
-အဲ့ထဲကမှ `app/Http/Controllers/ArticleController.php` ကိုကြည့်မယ်ဆိုရင်
+အဲ့ထဲကမှ `app/Http/Controllers/ArticleController.php` ကိုကြည့်မယ်ဆိုရင်
 
 ```php
 <?php
@@ -232,9 +232,9 @@ class ArticleController extends Controller
 
 `index()` နဲ့ `store()` function ၂ခု ကို တွေ့ရပါမယ်။
 
-`store()` function ကို ကြည့်ရင် validation အတွက် `ArticleStoreRequest` class ကိုသုံးထားတာတွေ့မှာပါ။
+`store()` function ကို ကြည့်ရင် validation အတွက် `ArticleStoreRequest` class ကိုသုံးထားတာတွေ့မှာပါ။
 
-`app/Http/Requests/ArticleStoreRequest.php` file ကိုကြည့်ရင်
+`app/Http/Requests/ArticleStoreRequest.php` file ကိုကြည့်ရင်
 
 ```php
 <?php
@@ -301,4 +301,4 @@ php artisan blueprint:erase
 
 Blueprint ကျွန်တော် highlight လုပ်ပြသွားတာတွေအပြင် နောက်ကွယ်ကနေ factories၊ views နဲ့ tests တွေလည်း generate ထုတ်ပေးပါတယ်။
 
-အသေးစိတ်ကိုတော့ [Blueprint Official Documentation](https://blueprint.laravelshift.com) မှာ ကြည့်လို့ရပါတယ်။
+အသေးစိတ်ကိုတော့ [Blueprint Official Documentation](https://blueprint.laravelshift.com) မှာ ကြည့်လို့ရပါတယ်။
