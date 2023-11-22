@@ -27,6 +27,15 @@ p img {
   color: var(--c-brand-light);
 }
 
+.project-link {
+  color: var(--c-brand);
+  margin-right: 10px;
+}
+
+.project-link:hover {
+  color: var(--c-brand-light);
+}
+
 .header-anchor {
   display: none;
 }
@@ -137,6 +146,7 @@ span.lang {
   color: #444;
   background-color: #f9f9f9;
 }
+
 .custom-block .custom-block-title {
   margin-bottom: 8px;
   font-size: 15px;
@@ -146,6 +156,7 @@ span.lang {
 .custom-block.tip {
   border: 1px solid #42b883;
 }
+
 .custom-block.tip:before {
   color: #42b883;
 }

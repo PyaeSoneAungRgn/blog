@@ -1,6 +1,6 @@
 ---
 title: About
-about: true
+custom: true
 head:
   - - meta
     - property: 'og:image'
