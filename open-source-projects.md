@@ -79,5 +79,3 @@ Verify your firebase app check token at appcheck.pyaesoneaung.dev.
 
 <a class="project-link" href="https://appcheck.pyaesoneaung.dev/">Website</a>
 <a class="project-link" href="https://github.com/PyaeSoneAungRgn/appcheck">Github</a>
-
-<hr />
