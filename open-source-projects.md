@@ -28,6 +28,14 @@ OpenAlbion is a free and open-source platform providing Albion Online data and a
 
 <hr />
 
+## Snippet Error Noti
+
+Notify Laravel errors to Slack with a clean UI and include a code snippet.
+
+<a class="project-link" href="https://github.com/PyaeSoneAungRgn/snippet-error-noti">Github</a>
+
+<hr />
+
 ## Sportmonks Football Api
 
 Laravel package for Sportmonks Football Api(V3).
