@@ -60,7 +60,7 @@ composer init
 }
 ````
 
-ဘာမှမရေးရင် အရင်ဆုံး ကိုယ့် package က Laravel version ဘယ်လောက်အနိမ့်ဆုံးလိုမယ်ဆိုတာ သတ်မှတ်ဖို့လိုပါတယ်။
+ဘာမှမရေးခင် အရင်ဆုံး ကိုယ့် package က Laravel version ဘယ်လောက်အနိမ့်ဆုံးလိုမယ်ဆိုတာ သတ်မှတ်ဖို့လိုပါတယ်။
 
 `composer.json` မှာ အခုလိုပြင်ပါမယ်။
 
@@ -74,11 +74,11 @@ composer init
 }
 ```
 
-"illuminate/contracts": "^10.0|^11.0" က Laravel 10 နဲ့ 11 မှာ သွင်းလို့ရမယ်လို့ ဆိုလိုတာပါ။
+**"illuminate/contracts": "^10.0|^11.0"** က Laravel 10 နဲ့ 11 မှာ သွင်းလို့ရမယ်လို့ ဆိုလိုတာပါ။
 
-"pyaesoneaung/quiz-api-client": "^1.0" က ကျတော်တို့ [part-1](https://www.pyaesoneaung.dev/posts/php-package-development-part-1) မှာ ရေးထားတဲ့ package ကို install လုပ်မယ်ဆိုလိုတာပါ။
+**"pyaesoneaung/quiz-api-client": "^1.0"** က ကျတော်တို့ [part-1](https://www.pyaesoneaung.dev/posts/php-package-development-part-1) မှာ ရေးထားတဲ့ package ကို install လုပ်မယ်ဆိုလိုတာပါ။
 
-"orchestra/testbench": "^9.0|^10.0" က test ရေးဖို့ အတွက်ပါ။ ပြီးတော့ testbench မှာ development လုပ်နေတဲ့ အချိန်မှာလိုအပ်တဲ့ ServiceProvider တို့၊​ Facade တို့ အပြင်တခြား Laravel ရဲ့ core class တွေကို တခါထဲသွင်းသွားတဲ့ အတွက် text editor တွေရဲ့ auto complete feature ကိုလည်း အသုံးပြုနိုင်မှာပါ။ ^9.0 က Laravel 10 အတွက်ဖြစ်ပြီး ^10.0 က Laravel 11 အတွက်ပါ။ အသေးစိတ်ကိုတော့ [packages.tools](https://packages.tools) မှာ ကြည့်လို့ရပါတယ်။
+**"orchestra/testbench": "^9.0|^10.0"** က test ရေးဖို့ အတွက်ပါ။ ပြီးတော့ testbench မှာ development လုပ်နေတဲ့ အချိန်မှာလိုအပ်တဲ့ ServiceProvider တို့၊​ Facade တို့ အပြင်တခြား Laravel ရဲ့ core class တွေကို တခါထဲသွင်းသွားတဲ့ အတွက် text editor တွေရဲ့ auto complete feature ကိုလည်း အသုံးပြုနိုင်မှာပါ။ ^9.0 က Laravel 10 အတွက်ဖြစ်ပြီး ^10.0 က Laravel 11 အတွက်ပါ။ အသေးစိတ်ကိုတော့ [packages.tools](https://packages.tools) မှာ ကြည့်လို့ရပါတယ်။
 
 ## Setup Config
 
@@ -162,7 +162,7 @@ $this->app->bind('api-client', function () {
 });
 ```
 
-ဒါဆိုရင် 'api-client' ကို resolve လုပ်ရင် ApiClient ရဲ့ constructor မှာ `https://example.com` နဲ့ `example-key` ကို laravel က pass ပေးသွားမှာပါ။ တကယ့် real world project မှာတော့ အပေါ်က code လို ရိုးရိုး မ bind ဘဲ singleton method ကို သုံးပြီး bind ပါတယ်။
+ဒါဆိုရင် **'api-client'** ကို resolve လုပ်ရင် ApiClient ရဲ့ constructor မှာ `https://example.com` နဲ့ `example-key` ကို laravel က pass ပေးသွားမှာပါ။ တကယ့် real world project မှာတော့ အပေါ်က code လို ရိုးရိုး မ bind ဘဲ singleton method ကို သုံးပြီး bind ပါတယ်။
 
 ```php
 $this->app->singleton('api-client', function () {
@@ -204,7 +204,7 @@ class QuizApiServiceProvider extends ServiceProvider
 }
 ```
 
-ဒါဆိုရင် `app(QuizApi::class)` လို့ခေါ်ရင် api key ထည့်ပြီးသား QuizApi object ကို ရမှာပါ။ ဒီနေရမှာမှာ `QuizApi::class` က `PyaeSoneAung\QuizApiClient\QuizApi` ဆိုတဲ့ string ကိုဆိုလိုတာပါ။ `app('PyaeSoneAung\QuizApiClient\QuizApi')` လို့ခေါ်လည်း QuizApi object ကိုရမှာပါ။ ဒီနေရာမှာ `QuizApi::class` လို့ သုံးတာက dependency resolve လုပ်တဲ့အချိန် တခြား package တွေနဲ့ နာမည်တူမျိုး မဖြစ်အောင်လို့ပါ။
+ဒါဆိုရင် `app(QuizApi::class)` လို့ခေါ်ရင် api key ထည့်ပြီးသား QuizApi object ကို ရမှာပါ။ ဒီနေရာမှာ `QuizApi::class` က **"PyaeSoneAung\QuizApiClient\QuizApi"** ဆိုတဲ့ string ကိုဆိုလိုတာပါ။ `app('PyaeSoneAung\QuizApiClient\QuizApi')` လို့ခေါ်လည်း QuizApi object ကိုရမှာပါ။ ဒီနေရာမှာ `QuizApi::class` လို့ သုံးတာက dependency resolve လုပ်တဲ့အချိန် တခြား package တွေနဲ့ နာမည်တူမျိုး မဖြစ်အောင်လို့ပါ။
 
 ဒါပေမဲ့ Laravel ကနေ
 
@@ -242,7 +242,7 @@ class QuizApi extends Facade
 }
 ```
 
-`getFacadeAccessor()` function က `app()` ထဲမှာ solve လုပ်မယ့် နာမည်ကို return ပြန်ပေးတာပါ။ ဒီနေရာမှာ `PyaeSoneAung\QuizApiClient\QuizApi` string ကို return ပြန်ပေးမှာပါ။
+`getFacadeAccessor()` function က `app()` ထဲမှာ solve လုပ်မယ့် နာမည်ကို return ပြန်ပေးတာပါ။ ဒီနေရာမှာ **"PyaeSoneAung\QuizApiClient\QuizApi"** string ကို return ပြန်ပေးမှာပါ။
 
 ပြီးရင်တော့ `composer.json` မှာ QuizApi Facade ကို register လုပ်ပါမယ်။
 

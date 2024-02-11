@@ -113,7 +113,7 @@ composer.json မှာ အခုလိုပြင်ပါမယ်။
 
 **"PyaeSoneAung\\QuizApiClient\\": "src/"** အဲ့အပိုင်းက ကျတော်တို့ src အောက်မှာ အသစ်ရေးမယ့် class တွေက **"PyaeSoneAung\QuizApiClient\"** namespace အောက်ကသွားမယ်လို့သတ်မှတ်လိုက်တာပါ။
 
-ဘာမှမရေးရင် အရင်ဆုံး ကိုယ့် package က PHP version ဘယ်လောက်အနိမ့်ဆုံးလိုမယ်ဆိုတာ သတ်မှတ်ဖို့လိုပါတယ်။ ကိုယ်က modern syntax တွေသုံးချင်ရင် php-8.1 လောက်ကစသင့်ပါတယ်။
+ဘာမှမရေးခင် အရင်ဆုံး ကိုယ့် package က PHP version ဘယ်လောက်အနိမ့်ဆုံးလိုမယ်ဆိုတာ သတ်မှတ်ဖို့လိုပါတယ်။ ကိုယ်က modern syntax တွေသုံးချင်ရင် php-8.1 လောက်ကစသင့်ပါတယ်။
 
 ```bash
 composer require php:^8.1
