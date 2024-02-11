@@ -249,10 +249,10 @@ class QuizApi extends Facade
 ```json
 "extra": {
   "laravel": {
-    "providers": ["PyaeSoneAung\\QuizApi\\QuizApiServiceProvider"]
-  },
-  "aliases": {
-    "QuizApi": "PyaeSoneAung\\QuizApi\\Facades\\QuizApi"
+    "providers": ["PyaeSoneAung\\QuizApi\\QuizApiServiceProvider"],
+    "aliases": {
+      "QuizApi": "PyaeSoneAung\\QuizApi\\Facades\\QuizApi"
+    }
   }
 }
 ```
