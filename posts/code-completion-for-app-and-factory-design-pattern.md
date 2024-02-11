@@ -10,8 +10,8 @@ head:
 
 ## Service Container
 
-Code Completion အကြောင်း မပြောခင် Laravel Service Container ကို အကြမ်းဖျင်း နည်းနည်း ရှင်းပြချင်ပါတယ်။ 
-Service Container မှာ အဓိက ၂ ပိုင်း ရှိပါတယ်။ Class တွေရဲ့ dependency တွေကို manage လုပ်တာနဲ့ dependency injection လုပ်ပေးတာပါ။ 
+Code Completion အကြောင်း မပြောခင် Laravel Service Container ကို အကြမ်းဖျင်း နည်းနည်း ရှင်းပြချင်ပါတယ်။
+Service Container မှာ အဓိက ၂ ပိုင်း ရှိပါတယ်။ Class တွေရဲ့ dependency တွေကို manage လုပ်တာနဲ့ dependency injection လုပ်ပေးတာပါ။
 
 ### Binding
 
@@ -35,7 +35,7 @@ $this->app->singleton(ApiClient::class, function () {
 
 ### Resolving
 
-`app()` ဆိုတာက dependency တွေကို reslove ဖို့သုံးတာပါ။ `app(ApiClient::class)` လို့ ခေါ်လိုက်ရင် service container မှာ bind ထားတဲ့အတိုင်း ApiClient ရဲ့ constructor မှာ $endpoint နဲ့ $apiKey pass ပြီး object ဆောက်သွားမှာပါ။
+`app()` ဆိုတာက dependency တွေကို reslove ဖို့သုံးတာပါ။ `app(ApiClient::class)` လို့ ခေါ်လိုက်ရင် service container မှာ bind ထားတဲ့အတိုင်း ApiClient ရဲ့ constructor မှာ $endpoint နဲ့ $apiKey pass ပြီး  create လုပ်ထားတဲ့ object ကိုရမှာပါ။
 
 ဒီလောက်ဆို Service Container အကြောင်းကို အကြမ်းဖျင်း နားလည်မယ်ထင်ပါတယ်။ အသေးစိတ်သိချင်ရင် [ဒီမှာ](https://laravel.com/docs/10.x/container) ကြည့်လို့ရပါတယ်။
 

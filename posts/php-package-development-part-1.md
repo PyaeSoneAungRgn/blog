@@ -25,12 +25,12 @@ composer init
 ဆိုပြီး run ပါမယ်။
 
 ```
-Package name (<vendor>/<name>) [pyaesoneaung/quiz-api-client]: 
+Package name (<vendor>/<name>) [pyaesoneaung/quiz-api-client]:
 ```
 Package name ကို `pyaesoneaung/quiz-api-client` ဆိုပြီး ထည့်ပါမယ်။ vendor မှာထည့်တာက vendor folder ကိုဖွင့်လိုက်ရင် စစတွေ့မယ့် folder name ပါ။ အများအားဖြင့် author နာမည်ကိုပဲထည့်ပါတယ်။​ name မှာထည့်တာက package name ပါ။
 
 ```
-Description []: 
+Description []:
 ```
 Description က ကိုယ်ကြိုက်တာထည့်လို့ရပါတယ်။
 
@@ -62,7 +62,7 @@ Would you like to define your dependencies (require) interactively [yes]?
 no ဆိုပြီး ကျော်သွားလိုက်ပါ။
 
 ```
-Would you like to define your dev dependencies (require-dev) interactively [yes]? 
+Would you like to define your dev dependencies (require-dev) interactively [yes]?
 ```
 no ဆိုပြီး ကျော်သွားလိုက်ပါ။
 
@@ -72,7 +72,7 @@ Add PSR-4 autoload mapping? Maps namespace "Pyaesoneaung\QuizApiClient" to the e
 enter နှိပ်ပေးလိုက်ပါ။
 
 ```
-Do you confirm generation [yes]? 
+Do you confirm generation [yes]?
 ```
 enter နှိပ်ပေးလိုက်ပါ။
 
@@ -101,7 +101,7 @@ composer.json မှာ အခုလိုပြင်ပါမယ်။
     "authors": [
         {
             "name": "Pyae Sone Aung",
-            "email": "pyaesoneaung.code@gmail.com"
+            "email": "pyaesoneaungrgn@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -118,7 +118,7 @@ composer.json မှာ အခုလိုပြင်ပါမယ်။
 ```bash
 composer require php:^8.1
 ```
-ဒါဆိုရင် composer.json မှာ 
+ဒါဆိုရင် composer.json မှာ
 
 ```json
 "require": {
@@ -126,7 +126,7 @@ composer require php:^8.1
 }
 ```
 
-ဆိုပြီးတိုးသွားမှာပါ။ ဒီနေရာမှာ **^** လေးက 8.1 အထက်လို့ဆိုလိုတာ ကိုယ့်စက်မှာ php-8.2 သုံးနေရင်လည်း အဆင်ပြေမှာပါ။ တကယ်လို့ ကိုယ့်စက်က php-8.0 (သို့) php-7.2 ဖြစ်နေရင် သွင်းရမှာမဟုတ်ဘူး။ အဲ့ကျရင် အခုလိုပြင်ရေးဖို့လိုပါတယ်။ 
+ဆိုပြီးတိုးသွားမှာပါ။ ဒီနေရာမှာ **^** လေးက 8.1 အထက်လို့ဆိုလိုတာ ကိုယ့်စက်မှာ php-8.2 သုံးနေရင်လည်း အဆင်ပြေမှာပါ။ တကယ်လို့ ကိုယ့်စက်က php-8.0 (သို့) php-7.2 ဖြစ်နေရင် သွင်းရမှာမဟုတ်ဘူး။ အဲ့ကျရင် အခုလိုပြင်ရေးဖို့လိုပါတယ်။
 
 ```json
 "require": {
@@ -155,7 +155,7 @@ composer require guzzlehttp/guzzle:^7.0
 
 Quiz Api ကို integrate လုပ်ဖို့ အခုလိုရေးပါမယ်။
 
-```diff
+```
 ├── src
 │   ├── Concerns
 │   │   ├── BuildBaseClient.php
@@ -306,7 +306,7 @@ composer require pestphp/pest --dev --with-all-dependencies
 
 ဒီနေရာမှာ `--dev` က development လုပ်တဲ့အချိန်မှာပဲ သွင်းဖို့လိုတယ်လို့ ဆိုလိုတာပါ။ Package ကို release လုပ်ပြီးလို့ သူများတွေ install လုပ်တဲ့အချိန်မှာဆို `guzzlehttp/guzzle` ကိုပဲ dependency အနေနဲ့ သွင်းသွားမှာပါ။
 
-ပြီးရင်တော့ 
+ပြီးရင်တော့
 
 ```bash
 ./vendor/bin/pest --init
@@ -348,7 +348,7 @@ function mockClient()
 ```
 `Pest.php` မှာ ရေးတဲ့ helper function တွေကို test ရဲ့ ကြိုက်တဲ့နေရာက ခေါ်သုံးလို့ရပါတယ်။
 
-`quizApi()` ကိုခေါ်ရင် `QuizApi` object return ပြန်မှာပါ။ ဒီနေရာမှာ api key ထည့်ဖို့မလိုပါဘူး။ ကျတော်တို့ code က Quiz Api ကို api သွားခေါ်နိုင်လားဆိုတာပဲ​ test ဖို့လိုတာပါ။ Quiz Api ကို key အစစ်ထည့်ပြီး တကယ်သွားခေါ်ဖို့ မလိုပါဘူး။ ဉပမာ တခြား developer တစ်ယောက် ဒီ code တွေ အလုပ်လုပ်မလုပ် စမ်းဖို့အတွက် သူကိုယ်တိုင် အကောင့်ဖွင့်ပြီး api token ယူပြီး စမ်းနေဖို့မလိုပါဘူး။ 
+`quizApi()` ကိုခေါ်ရင် `QuizApi` object return ပြန်မှာပါ။ ဒီနေရာမှာ api key ထည့်ဖို့မလိုပါဘူး။ ကျတော်တို့ code က Quiz Api ကို api သွားခေါ်နိုင်လားဆိုတာပဲ​ test ဖို့လိုတာပါ။ Quiz Api ကို key အစစ်ထည့်ပြီး တကယ်သွားခေါ်ဖို့ မလိုပါဘူး။ ဉပမာ တခြား developer တစ်ယောက် ဒီ code တွေ အလုပ်လုပ်မလုပ် စမ်းဖို့အတွက် သူကိုယ်တိုင် အကောင့်ဖွင့်ပြီး api token ယူပြီး စမ်းနေဖို့မလိုပါဘူး။
 
 `mockClient()` က guzzle client ကို mock လုပ်ဖို့ပါ။ mock လုပ်ထားတဲ့ client ကိုသုံးရင် api တကယ်သွားမခေါ်ဘဲ 200 response ကို ပြန်ရမှာပါ။ အဲ့အတွက် `MockHandler` ကို create လုပ်ပြီး `Client` မှာ pass ပေးထားတာပါ။
 
@@ -502,7 +502,7 @@ runs-on: ${{ matrix.os }}
 
 သူက ubuntu latest version မှာ php-8.1 က နေ 8.3 ထိ tests ၃မျိုး run မယ်လို့ သတ်မှတ်တာပါ။ တကယ်လို့ windows latest version မှာ run ချင်ရင် `os: [ubuntu-latest, windows-latest]` ဆိုပြီး ပြင်ရေးလို့ရပါတယ်။ အဲ့တာဆိုရင် `php-8.1 - ubuntu` `php-8.2 - ubuntu` `php-8.3 - ubuntu` `php-8.1 - windows` `php-8.2 - windows` `php-8.3 - windows` အဲ့လို tests ၆မျိုး run သွားမှာပါ။ ကျတော်ကတော့ windows ကို ထည့်မရေးပါဘူး test လုပ်ရင် ကြာလို့ပါ။​
 
-ဒါဆိုရင် `git init` လုပ်ပြီး github ပေါ်တင်လို့ရပါပြီ။​ `git init` မလုပ်ရင် `.gitignore` ဆိုပြီး file တစ်ခု create လုပ်ပြီး အခုလိုရေးပါမယ်။
+ဒါဆိုရင် `git init` လုပ်ပြီး github ပေါ်တင်လို့ရပါပြီ။​ `git init` မလုပ်ခင် `.gitignore` ဆိုပြီး file တစ်ခု create လုပ်ပြီး အခုလိုရေးပါမယ်။
 
 ```
 vendor
