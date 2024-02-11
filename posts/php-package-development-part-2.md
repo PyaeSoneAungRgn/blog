@@ -441,7 +441,7 @@ include:
 
 Laravel 10 ကို test ရင် testbench ကို version 8.\* ပဲ​ သုံးရမယ်လို့ သတ်မှတ်တာပါ။​ Laravel 9 ဆိုရင် testbench: 7.\*၊ Laravel 11 ဆိုရင် 9.\* ကို သုံးမယ်ဆိုပြီး သတ်မှတ်ဖို့လိုပါတယ်။ အခု စာရေးနေတဲ့ အချိန်မှာတော့ Laravel 11 မထွက်သေးတဲ့ အတွက် Laravel 10 အတွက်ပဲ CI ရေးထားတာပါ။
 
-ဒါဆိုရင် `git init` လုပ်ပြီး `github` ပေါ်တင်လို့ရပါပြီ။​ `git init` မလုပ်ခင် `.gitignore` ဆိုပြီး file တစ်ခု create လုပ်ပြီး အခုလိုရေးပါမယ်။
+ဒါဆိုရင် `git init` လုပ်ပြီး GitHub ပေါ်တင်လို့ရပါပြီ။​ `git init` မလုပ်ခင် `.gitignore` ဆိုပြီး file တစ်ခု create လုပ်ပြီး အခုလိုရေးပါမယ်။
 
 ```
 vendor
