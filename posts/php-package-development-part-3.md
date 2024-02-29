@@ -41,7 +41,7 @@ Package တစ်ခုရေးမယ်ဆိုရင် `composer init` လ�
 
 ကျတော်တို့ ရေးထားတဲ့ package တွေကို [Laravel News](https://laravel-news.com/) မှာ အကောင့်ဖွင့်ပြီး submit လုပ်လို့ရပါတယ်။​ သူတို့ approve ပေးလိုက်ရင် scoial platoform အမျိုးမျိုးမှာ ကိုယ့် package ကို share ပေးသွားမှာပါ။
 
-[made with Laravel](https://madewithlaravel.com/) မှာလည်း submit လုပ်လို့ရတယ်။
+[Made With Laravel](https://madewithlaravel.com/) မှာလည်း submit လုပ်လို့ရတယ်။
 
 ## Learning Resources
 
