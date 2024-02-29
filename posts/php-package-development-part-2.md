@@ -12,7 +12,7 @@ PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowla
 
 ## Requirements
 
-- [PHP Package Development (Part-1)](https://www.pyaesoneaung.dev/posts/php-package-development-part-1) ကို ကြည့်ထားဖို့ လိုပါတယ်။
+- [PHP Package Development (Part-1)](https://www.pyaesoneaung.dev/posts/php-package-development-part-1)
 
 ## Setup Composer Project
 
@@ -476,6 +476,6 @@ composer require pyaesoneaung/quiz-api
 
 ဆိုပြီးတော့ ကျတော်တို့ package ကို composer ကနေ install လုပ်လို့ရပါပြီ။
 
-Part-3 မှာတော့ package တစ်ခုကို အခုလို အစဆုံးရေးနေတာမျိုး မဟုတ်ဘဲ​ template တွေအသုံးပြုပြီး ဖန်တီးတာရယ်၊ spatie ရဲ့ package developement tool package အကြောင်းရယ်၊ တခြား code formatting၊ documentation အကြောင်းတွေကို ဆက်ပြီး knowledge sharing လုပ်သွားပါမယ်။
+Part-3 မှာတော့ package တစ်ခုကို အခုလို အစဆုံးရေးနေတာမျိုး မဟုတ်ဘဲ​ template တွေအသုံးပြုပြီး ဖန်တီးတာရယ်၊ spatie ရဲ့ package development tool package အကြောင်းရယ်၊ documentation အကြောင်းတွေကို ဆက်ပြီး knowledge sharing လုပ်သွားပါမယ်။
 
 Source code ကို [ဒီမှာ](https://github.com/PyaeSoneAungRgn/quiz-api) ကြည့်လို့ရပါတယ်။​ သိချင်တာရှိရင်လည်း မေးလို့ရပါတယ် ခင်ဗျာ။
