@@ -1,14 +1,14 @@
 ---
 title: PHP Package Development (Part-1)
 date: 2023-12-15
-description: PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowladge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ PHP အတွက် package တစ်ခုဖန်တီးပါမယ်။
+description: PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowledge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ PHP အတွက် package တစ်ခုဖန်တီးပါမယ်။
 head:
   - - meta
     - property: 'og:image'
       content: 'https://og.pyaesoneaung.dev/og?title=PHP Package Development (Part-1)'
 ---
 
-PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowladge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ PHP အတွက် package တစ်ခုဖန်တီးပါမယ်။
+PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowledge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ PHP အတွက် package တစ်ခုဖန်တီးပါမယ်။
 
 ## Quiz Api Client
 
@@ -17,41 +17,49 @@ Quiz Api က linux တို့၊ docker တို့၊ php တို့ စ�
 ## Setup Composer Project
 
 Project တစ်ခု create လုပ်ဖို့အတွက်
+
 ```bash
 mkdir quiz-api-client
 cd quiz-api-client
 composer init
 ```
+
 ဆိုပြီး run ပါမယ်။
 
 ```
 Package name (<vendor>/<name>) [pyaesoneaung/quiz-api-client]:
 ```
+
 Package name ကို `pyaesoneaung/quiz-api-client` ဆိုပြီး ထည့်ပါမယ်။ vendor မှာထည့်တာက vendor folder ကိုဖွင့်လိုက်ရင် စစတွေ့မယ့် folder name ပါ။ အများအားဖြင့် author နာမည်ကိုပဲထည့်ပါတယ်။​ name မှာထည့်တာက package name ပါ။
 
 ```
 Description []:
 ```
+
 Description က ကိုယ်ကြိုက်တာထည့်လို့ရပါတယ်။
 
 ```
 Author [Pyae Sone Aung <pyaesoneaung.code@gmail.com>, n to skip]:
 ```
+
 Author ကလည်း သူပေးတဲ့ format နဲ့ ကြိုက်တာထည့်လို့ရပါတယ်။ ဘာမှမထည့်ချင်ရင် `n` နဲ့ skip လို့ရပါတယ်။
 
 ```
 Minimum Stability []:
 ```
+
 Minimum Stability က လိုအပ်တဲ့ dependency တွေကို ဘယ် version တွေ သွင်းမလဲဆိုတာ သတ်မှတ်တာပါ။ ဒီနေရာမှာ `dev` လို့ထည့်ပါမယ်။
 
 ```
 Package Type (e.g. library, project, metapackage, composer-plugin) []:
 ```
+
 ဒီနေရာမှာ `library` လို့ပဲထည့်ရပါမယ်။
 
 ```
 License []:
 ```
+
 License အကြောင်းတွေသိရင် ထည့်လိုက်ပါ။ မသိရင် ကျော်သွားလို့ရပါတယ်။
 
 ```
@@ -59,21 +67,25 @@ Define your dependencies.
 
 Would you like to define your dependencies (require) interactively [yes]?
 ```
+
 no ဆိုပြီး ကျော်သွားလိုက်ပါ။
 
 ```
 Would you like to define your dev dependencies (require-dev) interactively [yes]?
 ```
+
 no ဆိုပြီး ကျော်သွားလိုက်ပါ။
 
 ```
 Add PSR-4 autoload mapping? Maps namespace "Pyaesoneaung\QuizApiClient" to the entered relative path. [src/, n to skip]:
 ```
+
 enter နှိပ်ပေးလိုက်ပါ။
 
 ```
 Do you confirm generation [yes]?
 ```
+
 enter နှိပ်ပေးလိုက်ပါ။
 
 အဲ့ဒါဆိုရင် အခုလို folder structure ရပါပြီ။
@@ -108,7 +120,8 @@ composer.json မှာ အခုလိုပြင်ပါမယ်။
 +   "prefer-stable": true,
     "require": {}
 }
-````
+```
+
 **"prefer-stable": true** က **"minimum-stability": "dev"** ဖြစ်နေရင်တောင်မှပဲ dependency တွေထဲက stable အဖြစ်ဆုံး version ကိုပဲ ဉီးစားပေးသွင်းမယ်ဆိုလိုတာပါ။
 
 **"PyaeSoneAung\\QuizApiClient\\": "src/"** အဲ့အပိုင်းက ကျတော်တို့ src အောက်မှာ အသစ်ရေးမယ့် class တွေက **"PyaeSoneAung\QuizApiClient\"** namespace အောက်ကသွားမယ်လို့သတ်မှတ်လိုက်တာပါ။
@@ -118,6 +131,7 @@ composer.json မှာ အခုလိုပြင်ပါမယ်။
 ```bash
 composer require php:^8.1
 ```
+
 ဒါဆိုရင် composer.json မှာ
 
 ```json
@@ -168,6 +182,7 @@ Quiz Api ကို integrate လုပ်ဖို့ အခုလိုရေ�
 ```
 
 `src/Concerns/BuildBaseClient.php`
+
 ```php
 <?php
 
@@ -190,6 +205,7 @@ trait BuildBaseClient
 ```
 
 `src/Concerns/CanSendGetRequest.php`
+
 ```php
 <?php
 
@@ -208,6 +224,7 @@ trait CanSendGetRequest
 ```
 
 `src/Resources/QuestionResource.php`
+
 ```php
 <?php
 
@@ -235,6 +252,7 @@ class QuestionResource
 ```
 
 `src/QuizApi.php`
+
 ```php
 <?php
 
@@ -262,6 +280,7 @@ class QuizApi
     }
 }
 ```
+
 ကျတော် အရင်ကရေးဖူးတဲ့ [Proper Way for Api Integration](https://www.pyaesoneaung.dev/posts/proper-way-for-api-integration) ထဲက ပုံစံအတိုင်းရေးထားတာပါ။ အသေးစိတ်ကို အဲ့မှာ ဖတ်လို့ရပါတယ်။
 
 ​ဒါဆိုရင် Quiz api ကို ဒီလိုခေါ်လို့ရပါပြီ။
@@ -271,11 +290,13 @@ use PyaeSoneAung\QuizApiClient\QuizApi;
 
 (new QuizApi($apiKey))->questions()->get();
 ```
+
 ဒီလို syntax နဲ့ api ခေါ်ချင်လို့ အပေါ်ကလိုမျိုးရေးထားတာပါ။ Laravel ရေးနေကျဆိုရင် ဒီ syntax ကို မြင်တာနဲ့ QuizApi ကနေ question တွေအကုန် သွားခေါ်တယ်ဆိုတာ အလိုလိုခံစားမိမှာပါ။
 
 ရေးပြီးတဲ့ code တွေ အလုပ်လုပ်မလုပ် စမ်းဖို့အတွက် root folder မှာပဲ `playground.php` ဆိုပြီး file တစ်ခု create လုပ်ပါမယ်။
 
 `playground.php`
+
 ```php
 <?php
 
@@ -289,9 +310,11 @@ var_dump($data);
 ```
 
 ပြီးရင်တော့ terminal ကနေ playground.php ကို run ပါမယ်။
+
 ```bash
 php playground.php
 ```
+
 ဒါဆိုရင် `$data` မှာ QuizApi ရဲ့ response array ဆိုရမှာပါ။
 
 `require __DIR__.'/vendor/autoload.php';` က ကျတော်တို့ `composer.json` မှာ သတ်မှတ်ထားတဲ့ Namespace ကို resolve လုပ်တာတို့၊​ vendor folder ထဲက package တွေကို သုံးလို့ရအောင်တို့ကို လုပ်ပေးတာပါ။
@@ -346,6 +369,7 @@ function mockClient()
     return new Client(['handler' => $handlerStack]);
 }
 ```
+
 `Pest.php` မှာ ရေးတဲ့ helper function တွေကို test ရဲ့ ကြိုက်တဲ့နေရာက ခေါ်သုံးလို့ရပါတယ်။
 
 `quizApi()` ကိုခေါ်ရင် `QuizApi` object return ပြန်မှာပါ။ ဒီနေရာမှာ api key ထည့်ဖို့မလိုပါဘူး။ ကျတော်တို့ code က Quiz Api ကို api သွားခေါ်နိုင်လားဆိုတာပဲ​ test ဖို့လိုတာပါ။ Quiz Api ကို key အစစ်ထည့်ပြီး တကယ်သွားခေါ်ဖို့ မလိုပါဘူး။ ဉပမာ တခြား developer တစ်ယောက် ဒီ code တွေ အလုပ်လုပ်မလုပ် စမ်းဖို့အတွက် သူကိုယ်တိုင် အကောင့်ဖွင့်ပြီး api token ယူပြီး စမ်းနေဖို့မလိုပါဘူး။
@@ -355,6 +379,7 @@ function mockClient()
 ပြီးရင်တော့ tests folder မှာပဲ​ `QuizApiTest.php` ဆိုပြီး class တစ်ခု create လုပ်ပါမယ်။
 
 `tests/QuizApiTest.php`
+
 ```php
 <?php
 
@@ -375,7 +400,7 @@ it('can return QuestionResource', function () {
 });
 ```
 
-`can build client` က `buildClient` function က guzzle client ကို create လုပ်နိုင်လား  test တာပါ။ `toBeInstanceOf()` က `expect` ရဲ့ return ပြန်တဲ့ class က toBeInstanceOf() မှာထည့်ထားတဲ့ calss ဖြစ်ရမယ်လိုဆိုလိုတာပါ။
+`can build client` က `buildClient` function က guzzle client ကို create လုပ်နိုင်လား test တာပါ။ `toBeInstanceOf()` က `expect` ရဲ့ return ပြန်တဲ့ class က toBeInstanceOf() မှာထည့်ထားတဲ့ calss ဖြစ်ရမယ်လိုဆိုလိုတာပါ။
 
 `can send get request` က GET method နဲ့ api ခေါ်လို့ရလား test တာပါ။ `get()` အတွက်လိုအပ်တဲ့ api client နေရာမှာ `mockClient()` ကိုသုံးထားပါတယ်။
 
@@ -386,6 +411,7 @@ it('can return QuestionResource', function () {
 ```bash
 ./vendor/bin/pest
 ```
+
 ဆိုပြီး test ကို run ကြည့်လို့ရပါပြီ။
 
 ![php-package-development-part-1-img-1](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-1.png)
@@ -399,6 +425,7 @@ composer require mockery/mockery --dev
 ပြီးရင်တော့ `tests/Resources/QuestionResourceTest.php` ဆိုပြီး class တစ်ခု create လုပ်ပါမယ်။
 
 `QuestionResourceTest.php`
+
 ```php
 <?php
 
@@ -425,6 +452,7 @@ $client->shouldReceive('buildClient')->andReturnUsing(
     fn () => mockClient()
 );
 ```
+
 shouldReceive က mock လုပ်ထားတဲ့ `$client` မှာ `buildClient` function ရှိတယ်လို့ သတ်မှတ်တာပါ။​ `andReturnUsing()` အဲ့ function ကိုခေါ်ရင် mock လုပ်ထားတဲ့ guzzle client return ပြန်မယ်လို့ သတ်မှတ်တာပါ။
 
 ```php
@@ -432,6 +460,7 @@ $client->shouldReceive('get')->andReturnUsing(
     fn () => mockClient()->get('/foo')
 );
 ```
+
 ဒီဟာလဲ အပေါ်ကသဘောပါပဲ။
 
 ```php
@@ -443,6 +472,7 @@ expect((new QuestionResource($client))->get())->toBeArray();
 ```bash
 ./vendor/bin/pest
 ```
+
 ဆိုပြီး test ကို run ကြည့်လို့ရပါပြီ။
 
 ![php-package-development-part-1-img-2](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-2.png)
@@ -454,6 +484,7 @@ CI ဆိုတာကတော့ ကျတော်တို့ code တွေ�
 အဲ့အတွက် `.github/workflows/run-tests.yml` ဆိုပြီး file တစ်ခု create လုပ်ပါမယ်။
 
 `run-tests.yml`
+
 ```yml
 name: Tests
 

@@ -1,14 +1,14 @@
 ---
 title: PHP Package Development (Part-2)
 date: 2024-02-10
-description: PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowladge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ Laravel အတွက် package တစ်ခုဖန်တီးပါမယ်။
+description: PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowledge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ Laravel အတွက် package တစ်ခုဖန်တီးပါမယ်။
 head:
   - - meta
     - property: 'og:image'
       content: 'https://og.pyaesoneaung.dev/og?title=PHP Package Development (Part-2)'
 ---
 
-PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowladge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ Laravel အတွက် package တစ်ခုဖန်တီးပါမယ်။
+PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowledge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ Laravel အတွက် package တစ်ခုဖန်တီးပါမယ်။
 
 ## Requirements
 
@@ -58,7 +58,7 @@ composer init
 +   "prefer-stable": true,
     "require": {}
 }
-````
+```
 
 ဘာမှမရေးခင် အရင်ဆုံး ကိုယ့် package က Laravel version ဘယ်လောက်အနိမ့်ဆုံးလိုမယ်ဆိုတာ သတ်မှတ်ဖို့လိုပါတယ်။
 

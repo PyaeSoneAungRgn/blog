@@ -1,14 +1,14 @@
 ---
 title: PHP Package Development (Part-3)
 date: 2024-02-29
-description: PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowladge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ package development အတွက် အသုံးဝင်တဲ့ tool တွေကို ပြောပြသွားပါမယ်။
+description: PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowledge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ package development အတွက် အသုံးဝင်တဲ့ tool တွေကို ပြောပြသွားပါမယ်။
 head:
   - - meta
     - property: 'og:image'
       content: 'https://og.pyaesoneaung.dev/og?title=PHP Package Development (Part-3)'
 ---
 
-PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowladge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ package development အတွက် အသုံးဝင်တဲ့ tool တွေကို ပြောပြသွားပါမယ်။
+PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowledge sharing လုပ်ချင်ပါတယ်။ ဒီအပိုင်းမှာတော့ package development အတွက် အသုံးဝင်တဲ့ tool တွေကို ပြောပြသွားပါမယ်။
 
 ## Requirements
 
