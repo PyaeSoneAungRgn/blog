@@ -13,7 +13,7 @@ PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowla
 ## Requirements
 
 - [PHP Package Development (Part-1)](https://www.pyaesoneaung.dev/posts/php-package-development-part-1)
-- [PHP Package Development (Part-2)](https://www.pyaesoneaung.dev/posts/php-package-development-part-2)
+- [Laravel Package Development (Part-2)](https://www.pyaesoneaung.dev/posts/php-package-development-part-2)
 
 ## Documentation
 
