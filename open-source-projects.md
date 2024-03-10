@@ -28,6 +28,14 @@ OpenAlbion is a free and open-source platform providing Albion Online data and a
 
 <hr />
 
+## GitHub's Zed themes
+
+GitHub's themes for Zed editor.
+
+<a class="project-link" href="https://github.com/PyaeSoneAungRgn/github-zed-theme">Github</a>
+
+<hr />
+
 ## Snippet Error Noti
 
 Notify Laravel errors to Slack with a clean UI and include a code snippet.
