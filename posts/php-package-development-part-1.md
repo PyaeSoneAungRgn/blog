@@ -281,7 +281,7 @@ class QuizApi
 }
 ```
 
-ကျတော် အရင်ကရေးဖူးတဲ့ [Proper Way for Api Integration](https://www.pyaesoneaung.dev/posts/proper-way-for-api-integration) ထဲက ပုံစံအတိုင်းရေးထားတာပါ။ အသေးစိတ်ကို အဲ့မှာ ဖတ်လို့ရပါတယ်။
+ကျတော် အရင်ကရေးဖူးတဲ့ [Proper Way for Api Integration](https://pyaesoneaung.dev/posts/proper-way-for-api-integration) ထဲက ပုံစံအတိုင်းရေးထားတာပါ။ အသေးစိတ်ကို အဲ့မှာ ဖတ်လို့ရပါတယ်။
 
 ​ဒါဆိုရင် Quiz api ကို ဒီလိုခေါ်လို့ရပါပြီ။
 
@@ -414,7 +414,7 @@ it('can return QuestionResource', function () {
 
 ဆိုပြီး test ကို run ကြည့်လို့ရပါပြီ။
 
-![php-package-development-part-1-img-1](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-1.png)
+![php-package-development-part-1-img-1](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-1.png)
 
 ပြီးရင်တော့ ကျန်နေသေးတဲ့ `QuestionResource` class အတွက် test ရေးဖို့ package တစ်ခုသွင်းဖို့လိုပါတယ်။
 
@@ -475,7 +475,7 @@ expect((new QuestionResource($client))->get())->toBeArray();
 
 ဆိုပြီး test ကို run ကြည့်လို့ရပါပြီ။
 
-![php-package-development-part-1-img-2](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-2.png)
+![php-package-development-part-1-img-2](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-2.png)
 
 ## Continuous Integration
 
@@ -551,7 +551,7 @@ git commit -m "initial commit"
 
 ပြီးရင်တော့ GitHub မှာ repo တစ်ခု create လုပ်ပြီး push ပါမ​ယ်။
 
-![php-package-development-part-1-img-3](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-3.png)
+![php-package-development-part-1-img-3](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-3.png)
 
 ဒါဆိုရင် GitHub Repo ထဲက Actions tab မှာ အခုလို test တွေ success ဖြစ်နေတာကိုတွေ့မှာပါ။
 
@@ -559,21 +559,21 @@ git commit -m "initial commit"
 
 Release လုပ်ဖို့အတွက် GitHub ကိုသွားပြီး အခုလိုလုပ်ပါမယ်။
 
-![php-package-development-part-1-img-4](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-4.png)
+![php-package-development-part-1-img-4](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-4.png)
 
 `0 tags` ကို နှိပ်ပါမယ်။
 
-![php-package-development-part-1-img-5](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-5.png)
+![php-package-development-part-1-img-5](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-5.png)
 
 `Create a new release`
 
-![php-package-development-part-1-img-6](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-6.png)
+![php-package-development-part-1-img-6](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-6.png)
 
 Choose a tag မှာ `v1.0.0` ဆိုပြီး tag တစ်ခု create လုပ်ပါမယ်။ Title နဲ့ description မှာ အဆင်ပြေတာ ရေးလို့ရပါတယ်။
 
 ပြီးရင်တော့ [packagist.org](https://packagist.org/) မှာ submit သွားလုပ်ပါမယ်။
 
-![php-package-development-part-1-img-7](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-7.png)
+![php-package-development-part-1-img-7](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-1-img-7.png)
 
 ဒါပြီးရင်တော့
 

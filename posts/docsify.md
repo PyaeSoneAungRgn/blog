@@ -10,7 +10,7 @@ head:
 
 Update: 2023-08-27
 
-လက်ရှိစာရေးနေတဲ့ အချိန်မှာတော့ Docsify အစား VitePress ကို ပြောင်းသုံးနေပါပြီ။ အသေးစိတ်ကို [ဒီမှာ](https://www.pyaesoneaung.dev/build-a-modern-documentation-site) ကြည့်လို့ ရပါတယ်။
+လက်ရှိစာရေးနေတဲ့ အချိန်မှာတော့ Docsify အစား VitePress ကို ပြောင်းသုံးနေပါပြီ။ အသေးစိတ်ကို [ဒီမှာ](https://pyaesoneaung.dev/build-a-modern-documentation-site) ကြည့်လို့ ရပါတယ်။
 
 <hr />
 
@@ -56,7 +56,7 @@ docsify serve docs
 
 လို့ run ပါမယ်။ ဒါဆိုရင် အခုလို ရပါပြီ။
 
-![docsify-1.png](https://www.pyaesoneaung.dev/assets/img/blog/docsify-1.png)
+![docsify-1.png](https://pyaesoneaung.dev/assets/img/blog/docsify-1.png)
 
 ဒီနေရမှာ code တွေ syntax highlight ဖြစ်အောင် plugin ထည့်ပေးရပါမယ်။
 

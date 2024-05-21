@@ -12,7 +12,7 @@ head:
 
 ဒီနေရာမှာ ကျွန်တော့်ရဲ့ package တစ်ခုဖြစ်တဲ့ [Laravel Myanmar Tools](https://www.laravel-myanmar-tools.com) ရဲ့ documentation ကို VitePress နဲ့ ဘယ်လိုဖန်တီးထားတယ်ဆိုတာ knowledge sharing လုပ်ချင်ပါတယ်။
 
-![build-a-modern-documentation-site-img-1](https://www.pyaesoneaung.dev/assets/img/blog/build-a-modern-documentation-site-img-1.png)
+![build-a-modern-documentation-site-img-1](https://pyaesoneaung.dev/assets/img/blog/build-a-modern-documentation-site-img-1.png)
 
 ### VitePress
 

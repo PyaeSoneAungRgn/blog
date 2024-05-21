@@ -10,7 +10,7 @@ head:
 
 [Laravel Myanmar Tools](https://github.com/PyaeSoneAungRgn/laravel-myanmar-tools) ဆိုတာကတော့ မြန်မာဘာသာစကား အတွက်လိုအပ်တာတွေကို Laravel framework ရဲ့ core component တွေမှာ extend လုပ်ထားတဲ့ package တစ်ခုဖြစ်ပါတယ်။
 
-ဒီ package ကို ကျွန်တော် စရေးဖို့ အကြံရတာကတော့ Laravel Macro ကို လေ့လာပြီးတဲ့ အချိန်မှာပါ။ Macro ကိုသုံးပြီး မြန်မာဘာသာအတွက် လူသုံးများတဲ့ [Rabbit-PHP](https://github.com/Rabbit-Converter/Rabbit-PHP)၊ [myanmar-phone-number-php](https://github.com/johnreginald/myanmar-phone-number-php) တို့လို packages တွေကို Laravel ရဲ့ core component မှာ extend လုပ်မယ်ဆိုပြီး ရေးဖြစ်တာပါ။ Laravel Macro အကြောင်းကို ကျွန်တော် [ဒီမှာ](https://www.pyaesoneaung.dev/laravel-macros) ရေးထားပါတယ်။
+ဒီ package ကို ကျွန်တော် စရေးဖို့ အကြံရတာကတော့ Laravel Macro ကို လေ့လာပြီးတဲ့ အချိန်မှာပါ။ Macro ကိုသုံးပြီး မြန်မာဘာသာအတွက် လူသုံးများတဲ့ [Rabbit-PHP](https://github.com/Rabbit-Converter/Rabbit-PHP)၊ [myanmar-phone-number-php](https://github.com/johnreginald/myanmar-phone-number-php) တို့လို packages တွေကို Laravel ရဲ့ core component မှာ extend လုပ်မယ်ဆိုပြီး ရေးဖြစ်တာပါ။ Laravel Macro အကြောင်းကို ကျွန်တော် [ဒီမှာ](https://pyaesoneaung.dev/laravel-macros) ရေးထားပါတယ်။
 
 ### Installation
 

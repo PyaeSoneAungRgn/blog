@@ -12,19 +12,19 @@ Sublime Text ကို Laravel development အတွက် setup လုပ်ပ
 
 #### Parameter Hints
 
-![setup-sublime-text-gif-1](https://www.pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-1.gif)
+![setup-sublime-text-gif-1](https://pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-1.gif)
 
 #### Go To definition
 
-![setup-sublime-text-gif-2](https://www.pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-2.gif)
+![setup-sublime-text-gif-2](https://pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-2.gif)
 
 #### Error Detection
 
-![setup-sublime-text-gif-3](https://www.pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-3.gif)
+![setup-sublime-text-gif-3](https://pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-3.gif)
 
 #### Code Completion
 
-![setup-sublime-text-gif-4](https://www.pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-4.gif)
+![setup-sublime-text-gif-4](https://pyaesoneaung.dev/assets/img/blog/setup-sublime-text-gif-4.gif)
 
 ### Basic
 
@@ -40,7 +40,7 @@ Sublime မှာ setting တွေပြင်မယ်ဆိုရင် `cmd+
 
 ကျွန်တော်အတွက်တော့ editor က ကြည့်ကောင်းဖို့ အရမ်းအရေးကြီးပါတယ်။
 
-![setup-sublime-text-img-1](https://www.pyaesoneaung.dev/assets/img/blog/setup-sublime-text-img-1.png)
+![setup-sublime-text-img-1](https://pyaesoneaung.dev/assets/img/blog/setup-sublime-text-img-1.png)
 
 [GitHub's Theme](https://github.com/mauroreisvieira/github-sublime-theme) ကို `Package Control` ကနေသွင်းပါမယ်။
 

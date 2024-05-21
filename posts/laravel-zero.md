@@ -209,7 +209,7 @@ public function handle()
 
 `flex` သုံးထားတာက သူ့ထဲက item တွေကို အလျှားလိုက်ပြချင်လို့ပါ။ ဒုတိယ span tag မှာ သုံးတာတဲ့ `flex-1 content-repeat-['.']` က နေရာလွတ်တွေ အကုန်လုံးကို `...` တွေနဲ့ ဖြည့်ချင်လို့ပါ။ ဒါဆိုရင် အခုလို UI ကို ရပါပြီ။
 
-![laravel-zero-img-1](https://www.pyaesoneaung.dev/assets/img/blog/laravel-zero-img-1.png)
+![laravel-zero-img-1](https://pyaesoneaung.dev/assets/img/blog/laravel-zero-img-1.png)
 
 ## Standalone Application
 
@@ -347,25 +347,25 @@ git push -u origin main
 
 ပြီးရင်တော့ github ကိုသွားပြီး အခုလိုလုပ်ပါမယ်။
 
-![laravel-zero-img-2](https://www.pyaesoneaung.dev/assets/img/blog/laravel-zero-img-2.png)
+![laravel-zero-img-2](https://pyaesoneaung.dev/assets/img/blog/laravel-zero-img-2.png)
 
 `0 tags` ကို နှိပ်ပါမယ်။
 
-![laravel-zero-img-3](https://www.pyaesoneaung.dev/assets/img/blog/laravel-zero-img-3.png)
+![laravel-zero-img-3](https://pyaesoneaung.dev/assets/img/blog/laravel-zero-img-3.png)
 
 `Create a new release`
 
-![laravel-zero-img-4](https://www.pyaesoneaung.dev/assets/img/blog/laravel-zero-img-4.png)
+![laravel-zero-img-4](https://pyaesoneaung.dev/assets/img/blog/laravel-zero-img-4.png)
 
 `Choose a tag` မှာ `v1.0.0` ဆိုပြီး tag တစ်ခု create လုပ်ပါမယ်။
 
-![laravel-zero-img-5](https://www.pyaesoneaung.dev/assets/img/blog/laravel-zero-img-5.png)
+![laravel-zero-img-5](https://pyaesoneaung.dev/assets/img/blog/laravel-zero-img-5.png)
 
 Title နဲ့ description မှာ အဆင်ပြေတာ ရေးလို့ရပါတယ်။
 
 ပြီးရင်တော့ [packagist.org](https://packagist.org/packages/submit) မှာ submit သွားလုပ်ပါမယ်။
 
-![laravel-zero-img-6](https://www.pyaesoneaung.dev/assets/img/blog/laravel-zero-img-6.png)
+![laravel-zero-img-6](https://pyaesoneaung.dev/assets/img/blog/laravel-zero-img-6.png)
 
 ဒါပြီးရင်တော့ ဘယ်စက်မှာ မဆို
 

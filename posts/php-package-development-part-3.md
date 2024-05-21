@@ -12,8 +12,8 @@ PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowle
 
 ## Requirements
 
-- [PHP Package Development (Part-1)](https://www.pyaesoneaung.dev/posts/php-package-development-part-1)
-- [Laravel Package Development (Part-2)](https://www.pyaesoneaung.dev/posts/php-package-development-part-2)
+- [PHP Package Development (Part-1)](https://pyaesoneaung.dev/posts/php-package-development-part-1)
+- [Laravel Package Development (Part-2)](https://pyaesoneaung.dev/posts/php-package-development-part-2)
 
 ## Documentation
 
@@ -24,7 +24,7 @@ PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowle
 - [VuePress](https://vuepress.vuejs.org/)
 - [JIGSAW](https://jigsaw.tighten.com/)
 
-ဒါတွေကတော့ ကျတော်ကိုယ်တိုင်သုံးဖူးပြီး အဆင်ပြေတဲ့ static site generator တွေပါ။ Documentation site တစ်ခုဖန်တီးတဲ့ အကြာင်းကို [Build a Modern Documentation Site](https://www.pyaesoneaung.dev/posts/build-a-modern-documentation-site) မှာ ကျတော် အသေးစိတ်ရေးထားပါတယ်။
+ဒါတွေကတော့ ကျတော်ကိုယ်တိုင်သုံးဖူးပြီး အဆင်ပြေတဲ့ static site generator တွေပါ။ Documentation site တစ်ခုဖန်တီးတဲ့ အကြာင်းကို [Build a Modern Documentation Site](https://pyaesoneaung.dev/posts/build-a-modern-documentation-site) မှာ ကျတော် အသေးစိတ်ရေးထားပါတယ်။
 
 ## Package Skeleton
 

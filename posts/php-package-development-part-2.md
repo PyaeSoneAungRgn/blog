@@ -12,7 +12,7 @@ PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowle
 
 ## Requirements
 
-- [PHP Package Development (Part-1)](https://www.pyaesoneaung.dev/posts/php-package-development-part-1)
+- [PHP Package Development (Part-1)](https://pyaesoneaung.dev/posts/php-package-development-part-1)
 
 ## Setup Composer Project
 
@@ -76,7 +76,7 @@ composer init
 
 **"illuminate/contracts": "^10.0|^11.0"** က Laravel 10 နဲ့ 11 မှာ သွင်းလို့ရမယ်လို့ ဆိုလိုတာပါ။
 
-**"pyaesoneaung/quiz-api-client": "^1.0"** က ကျတော်တို့ [part-1](https://www.pyaesoneaung.dev/posts/php-package-development-part-1) မှာ ရေးထားတဲ့ package ကို install လုပ်မယ်ဆိုလိုတာပါ။
+**"pyaesoneaung/quiz-api-client": "^1.0"** က ကျတော်တို့ [part-1](https://pyaesoneaung.dev/posts/php-package-development-part-1) မှာ ရေးထားတဲ့ package ကို install လုပ်မယ်ဆိုလိုတာပါ။
 
 **"orchestra/testbench": "^9.0|^10.0"** က test ရေးဖို့ အတွက်ပါ။ ပြီးတော့ testbench မှာ development လုပ်နေတဲ့ အချိန်မှာလိုအပ်တဲ့ ServiceProvider တို့၊​ Facade တို့ အပြင်တခြား Laravel ရဲ့ core class တွေကို တခါထဲသွင်းသွားတဲ့ အတွက် text editor တွေရဲ့ auto complete feature ကိုလည်း အသုံးပြုနိုင်မှာပါ။ ^9.0 က Laravel 10 အတွက်ဖြစ်ပြီး ^10.0 က Laravel 11 အတွက်ပါ။ အသေးစိတ်ကိုတော့ [packages.tools](https://packages.tools) မှာ ကြည့်လို့ရပါတယ်။
 
@@ -458,7 +458,7 @@ git commit -m "initial commit"
 
 ပြီးရင်တော့ GitHub မှာ repo တစ်ခု create လုပ်ပြီး push ပါမ​ယ်။
 
-![php-package-development-part-2-img-1](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-2-img-1.jpg)
+![php-package-development-part-2-img-1](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-2-img-1.jpg)
 
 ဒါဆိုရင် GitHub Repo ထဲက Actions tab မှာ အခုလို test တွေ success ဖြစ်နေတာကိုတွေ့မှာပါ။
 
@@ -466,7 +466,7 @@ git commit -m "initial commit"
 
 GitHub မှာ `v1.0.0` ကို release လုပ်ပြီး [packagist.org](https://packagist.org/) မှာ submit သွားလုပ်ပါမယ်။
 
-![php-package-development-part-2-img-2](https://www.pyaesoneaung.dev/assets/img/blog/php-package-development-part-2-img-2.jpg)
+![php-package-development-part-2-img-2](https://pyaesoneaung.dev/assets/img/blog/php-package-development-part-2-img-2.jpg)
 
 ဒါပြီးရင်တော့
 

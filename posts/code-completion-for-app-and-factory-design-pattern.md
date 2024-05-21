@@ -71,6 +71,6 @@ namespace PHPSTORM_META {
 
 `app()` function ကို `apiClient` string နဲ့လာခေါ်ရင် return type က `ApiClient` class လို့ သတ်မှတ်လိုက်တာပါ။ ဒါဆိုရင် vscode က အခုလို သိပါပြီ။
 
-![code-completion-for-app-and-factory-design-pattern-img-1.png](https://www.pyaesoneaung.dev/assets/img/blog/code-completion-for-app-and-factory-design-pattern-img-1.png)
+![code-completion-for-app-and-factory-design-pattern-img-1.png](https://pyaesoneaung.dev/assets/img/blog/code-completion-for-app-and-factory-design-pattern-img-1.png)
 
 IDE က သိစေချင်တဲ့ တခြား dependency injection တွေကိုလည်း map array ထဲမှာ ထပ်ထည့်လို့ရပါတယ်။ အခုလို ကိုယ်တိုင်မလုပ်ချင်ရင် [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper) package သွင်းပြီး `php artisan ide-helper:meta` ဆိုပြီး run လည်းရပါတယ်။ သူကတော့ ရှိသမျှ class တွေ အားလုံးအတွက် `.phpstorm.meta.php` file မှာ generate လုပ်သွားမှာပါ။

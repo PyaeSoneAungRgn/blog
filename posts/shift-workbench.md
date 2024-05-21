@@ -98,21 +98,21 @@ Workbench ကို Desktop App (သို့) Cloud Based ဆိုပြီး
 
 [laravelshift.com/workbench](https://laravelshift.com/workbench) website ကနေ သက်ဆိုင်ရာ platform အတွက် download ဆွဲလို့ရပါတယ်။ Install လုပ်ပြီးသွားရင် project path ရွေးပြီး သုံးလို့ရပါပြီ။ (Workbench ကို သုံးဖို့ docker client ကို ဖွင့်ထားပေးဖို့လိုပါတယ်။)
 
-![shift-workbench-img-1](https://www.pyaesoneaung.dev/assets/img/blog/shift-workbench-img-1.png)
+![shift-workbench-img-1](https://pyaesoneaung.dev/assets/img/blog/shift-workbench-img-1.png)
 
 ### Cloud Based
 
 [laravelshift.com](https://laravelshift.com) မှာ account ဖွင့်ဖို့လိုပါတယ်။ ပြီးရင် Workbench ကိုရွေးပြီး သုံးလို့ရပါပြီ။
 
-![shift-workbench-img-2](https://www.pyaesoneaung.dev/assets/img/blog/shift-workbench-img-2.png)
+![shift-workbench-img-2](https://pyaesoneaung.dev/assets/img/blog/shift-workbench-img-2.png)
 
 ကိုယ် run ချင်တာတွေ သတ်မှတ်ပြီးပြီဆိုရင် repository ကို ရွေးပြီး run လို့ရပါပြီ။
 
-![shift-workbench-img-3](https://www.pyaesoneaung.dev/assets/img/blog/shift-workbench-img-3.png)
+![shift-workbench-img-3](https://pyaesoneaung.dev/assets/img/blog/shift-workbench-img-3.png)
 
 Run ပြီးသွားရင် github မှာ Workbench ကနေ pull request တက်လာပါမယ်။
 
-![shift-workbench-img-4](https://www.pyaesoneaung.dev/assets/img/blog/shift-workbench-img-4.png)
+![shift-workbench-img-4](https://pyaesoneaung.dev/assets/img/blog/shift-workbench-img-4.png)
 
 Pull request ကို merge လုပ်လိုက်ရင် အားလုံးပြီးပါပြီ။
 

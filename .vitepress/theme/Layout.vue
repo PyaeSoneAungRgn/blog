@@ -19,6 +19,8 @@ const { page, frontmatter } = useData()
         <div class="text-sm text-gray-500 dark:text-white leading-5">
           <a class="hover:text-gray-700 dark:hover:text-gray-200" href="/about">About</a>
           <span class="mr-2 ml-2">·</span>
+          <a class="hover:text-gray-700 dark:hover:text-gray-200" href="/books">Books</a>
+          <span class="mr-2 ml-2">·</span>
           <a class="hover:text-gray-700 dark:hover:text-gray-200" href="https://github.com/PyaeSoneAungRgn"
             target="_blank">Github</a>
         </div>
