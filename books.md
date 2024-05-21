@@ -17,4 +17,4 @@ PHP နဲ့ Laravel Package တွေ ဖန်တီးတာကို knowle
 
 <a class="project-link" href="https://cdn.pyaesoneaung.dev/books/PHP-Package-Development.pdf">Download PDF</a>
 
-<hr />
+<!-- <hr /> -->
