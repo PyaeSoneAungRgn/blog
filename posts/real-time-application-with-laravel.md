@@ -200,7 +200,7 @@ class CharacterUpdated implements ShouldBroadcast
 }
 ```
 
-ဒီနေရမှာ အရေးကြီးတာ ၂ခု ရှိပါတယ်။ `ShouldBroadcast` ကို impletement လုပ်ထားရပါမယ်။ broadcastOn မှာ သုံးထားတဲ့ channel က `Illuminate\Broadcasting\Channel` ဖြစ်ရပါမယ်။ ကျတော်တို့က auth မပါတဲ့ public တစ်ခုလုပ်မှာမို့ပါ။ `character` ဆိုတာကတော့ ကျတော်တို့ရဲ့ channel name ပါ။
+ဒီနေရာမှာ အရေးကြီးတာ ၂ခု ရှိပါတယ်။ `ShouldBroadcast` ကို impletement လုပ်ထားရပါမယ်။ broadcastOn မှာ သုံးထားတဲ့ channel က `Illuminate\Broadcasting\Channel` ဖြစ်ရပါမယ်။ ကျတော်တို့က auth မပါတဲ့ public channel တစ်ခုလုပ်မှာမို့ပါ။ `character` ဆိုတာကတော့ ကျတော်တို့ရဲ့ channel name ပါ။
 
 ## Integrate Websocket
 
