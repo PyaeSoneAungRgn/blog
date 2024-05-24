@@ -130,7 +130,7 @@ export default {
                 alt="radiant">
         </div>
         <div class="w-1/2">
-            <img class="cursor-pointer w-64 mx-auto" src="/mars.png" alt="png">
+            <img class="cursor-pointer w-64 mx-auto" src="/mars.png" alt="dire">
         </div>
     </div>
 </x-layouts.app>
@@ -237,7 +237,7 @@ $updateCharacter = function(string $character) {
                 alt="radiant">
         </div>
         <div class="w-1/2">
-            <img wire:click="updateCharacter('red')" class="cursor-pointer w-64 mx-auto" src="/mars.png" alt="png">
+            <img wire:click="updateCharacter('red')" class="cursor-pointer w-64 mx-auto" src="/mars.png" alt="dire">
         </div>
     </div>
     @endvolt
@@ -291,7 +291,7 @@ Frontend ကို javascript framework ဒါမှမဟုတ် android app 
             <img class="cursor-pointer w-64 mx-auto" src="/earth_spirit.png" alt="radiant">
         </div>
         <div class="w-1/2">
-            <img class="cursor-pointer w-64 mx-auto" src="/mars.png" alt="png">
+            <img class="cursor-pointer w-64 mx-auto" src="/mars.png" alt="dire">
         </div>
     </div>
 
@@ -323,6 +323,6 @@ Frontend ကို javascript framework ဒါမှမဟုတ် android app 
 </html>
 ```
 
-ဒီဟာဆိုရင် pure html မှာ official pusher js sdk နဲ့ ချိတ်ပြီး ရေးပြထားတာပါ။
+ဒီဟာဆိုရင် pure html မှာ official pusher js နဲ့ ချိတ်ပြီး ရေးပြထားတာပါ။
 
 Source code ကို [ဒီမှာ](https://github.com/PyaeSoneAungRgn/real-time-applicaion-with-laravel) ကြည့်လို့ရပါတယ်။ တခြား real-time POC ရေးထားတဲ့ project တစ်ခုကိုလည်း [PyaeSoneAungRgn/realtime-reaction](https://github.com/PyaeSoneAungRgn/realtime-reaction) မှာ ကြည့်လို့ရပါတယ်။ သိချင်တာရှိရင်လည်း မေးလို့ရပါတယ် ခဗျာ။
