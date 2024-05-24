@@ -37,7 +37,7 @@ composer require laravel/folio
 php artisan folio:install
 ```
 
-Laravel Folio ဆိုတာကတော့ Laravel မှာ frontend ရေးရင် သုံးတဲ့ tool တစ်ခုပါ။ `resources/views/pages` folder မှာ `hello.blade.php` ဆိုပြီး create လုပ်ရင် `http://localhost:8000/hello` ဆိုပြီးခေါ်လို့ရမှာပါ။ `hi.blade.php` ဆိုပြီး create လုပ်ရင် `/hi` ဆိုပြီးခေါ်လို့ရမှာပါ။ အလွယ်ပြောရရင် Next.js လိုပါပဲ။
+Laravel Folio ဆိုတာကတော့ Laravel မှာ frontend ရေးရင် သုံးတဲ့ package တစ်ခုပါ။ `resources/views/pages` folder မှာ `hello.blade.php` ဆိုပြီး create လုပ်ရင် `http://localhost:8000/hello` ဆိုပြီးခေါ်လို့ရမှာပါ။ `hi.blade.php` ဆိုပြီး create လုပ်ရင် `/hi` ဆိုပြီးခေါ်လို့ရမှာပါ။ အလွယ်ပြောရရင် Next.js လိုပါပဲ။
 
 ```bash
 php artisan folio:page play
@@ -105,7 +105,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-ပြီးရင်တော့ `tailwind.config.js` မှာ အခုလိုပြင်ပါမယ်။
+ပြီးရင် `tailwind.config.js` မှာ အခုလိုပြင်ပါမယ်။
 
 ```js
 /** @type {import('tailwindcss').Config} */
@@ -255,7 +255,7 @@ $updateCharacter = function(string $character) {
 </x-layouts.app>
 ```
 
-php tag ထဲက code တွေက volt ကြောင့် အခုလိုရေးလို့ရတာပါ။ `updateCharacter` ဆိုတဲ့ function တစ်ခုရှိပါတယ်။​ အဲ့ function ကိုခေါ်ရင် `CharacterUpdated` event ကို dispatch လုပ်သွားမှာပါ။
+php tag ထဲက code တွေက volt ကြောင့် အဲ့လိုလိုရေးလို့ရတာပါ။ `updateCharacter` ဆိုတဲ့ function တစ်ခုရှိပါတယ်။​ အဲ့ function ကိုခေါ်ရင် `CharacterUpdated` event ကို dispatch လုပ်သွားမှာပါ။
 
 `@volt @endvolt` ထဲက code တွေက livewire anonymous component လို့ယူဆသွားမှာပါ။ `wire:click="updateCharacter('green')"` က ပုံကို နှိပ်လိုက်ရင် updateCharacter function ကို green ဆိုတဲ့ value pass ပြီး ခေါ်သွားမှာပါ။
 
