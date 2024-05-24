@@ -171,3 +171,7 @@ span.lang {
 body {
   font-family: 'Yati';
 }
+
+p>code {
+  word-break: break-all;
+}
