@@ -16,7 +16,7 @@ Laravel နဲ့ Real-Time application တစ်ခု ဖန်တီးပါ
 
 အစိမ်းကောင်ကို နှိပ်ရင် အစိမ်းရောင် background ပြောင်းပြီး အနီကောင်ကို နှိပ်ရင် အနီရောင် background ပြောင်းမှာပါ။ တစ်ယောက်ယောက်က တစ်ခုခုနှိပ်တာနဲ့ အဲ့ page ကို ဖွင့်ထားတဲ့ device တိုင်းမှာ real time update ဖြစ်သွားမှာပါ။
 
-![real-time-application-with-laravel-img-2](https://pyaesoneaung.dev/assets/img/blog/real-time-application-with-laravel-img-2.mp4)
+[![](real-time-application-with-laravel-img-2)](https://pyaesoneaung.dev/assets/img/blog/real-time-application-with-laravel-img-2.mp4)
 
 ဒါက ကျတော်စက်မှာ browser ၂ခု နဲ့ စမ်းပြထားတာပါ။
 
