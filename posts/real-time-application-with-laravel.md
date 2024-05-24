@@ -321,6 +321,6 @@ Frontend ကို javascript framework ဒါမှမဟုတ် android app 
 </html>
 ```
 
-ဒီဟာဆိုရင် pure html မှာ official pusher js skd နဲ့ ချိတ်ပြီး ရေးပြထားတာပါ။
+ဒီဟာဆိုရင် pure html မှာ official pusher js sdk နဲ့ ချိတ်ပြီး ရေးပြထားတာပါ။
 
 Source code ကို [ဒီမှာ](https://github.com/PyaeSoneAungRgn/real-time-applicaion-with-laravel) ကြည့်လို့ရပါတယ်။ တခြား real-time POC ရေးထားတဲ့ project တစ်ခုကိုလည်း [PyaeSoneAungRgn/realtime-reaction](https://github.com/PyaeSoneAungRgn/realtime-reaction) မှာ ကြည့်လို့ရပါတယ်။ သိချင်တာရှိရင်လည်း မေးလို့ရပါတယ် ခဗျာ။
