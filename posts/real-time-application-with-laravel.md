@@ -153,7 +153,7 @@ php artisan install:broadcasting
 
 Laravel Reverb ဆိုတာကတော့ websocket server တစ်ခုဖြစ်ပါတယ်။ ပြီးတော့ သူ့ကို pusher client တွေနဲ့ ချိတ်သုံးလို့ရပါတယ်။ ဒီနေရာမှာ တစ်ခုသေချာရှင်းလင်းချင်တာက pusher client သုံးတယ်ဆိုတာ pusher ကို ဝယ်သုံးတာမဟုတ်ပါဘူး pusher sdk ကိုပဲသုံးတာတာ host က laravel reverb host ကို သုံးရမှာပါ။ Laravel Reverb ကိုယ်တိုင်က pusher server သဘောပါ။
 
-```env
+```
 REVERB_APP_ID=286585
 REVERB_APP_KEY=ns5vuegxbudmxyrdyfnb
 REVERB_APP_SECRET=zdveddmzanu54wsqw7ad

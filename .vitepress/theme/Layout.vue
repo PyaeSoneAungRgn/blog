@@ -22,7 +22,7 @@ const { page, frontmatter } = useData()
           <a class="hover:text-gray-700 dark:hover:text-gray-200" href="/books">Books</a>
           <span class="mr-2 ml-2">·</span>
           <a class="hover:text-gray-700 dark:hover:text-gray-200" href="https://github.com/PyaeSoneAungRgn"
-            target="_blank">Github</a>
+            target="_blank">Github →</a>
         </div>
       </nav>
     </div>

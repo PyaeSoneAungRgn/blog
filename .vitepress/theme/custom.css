@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Yati';
+    src: url('/assets/font/yati.ttf');
+}
+
+body {
+    font-family: 'Yati';
+}
+
+p>code {
+    word-break: break-all;
+}

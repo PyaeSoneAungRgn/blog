@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.vp-code span {
+  color: var(--shiki-dark, inherit);
+}
+
 :root {
-  --c-brand: rgb(62, 175, 124);
+  --c-brand: #3eaf7c;
   --c-brand-light: #4abf8a;
 }
 
@@ -27,17 +31,20 @@ p img {
   color: var(--c-brand-light);
 }
 
-.project-link {
-  color: var(--c-brand);
-  margin-right: 10px;
-}
-
-.project-link:hover {
-  color: var(--c-brand-light);
-}
-
 .header-anchor {
   display: none;
+}
+
+h3 .header-anchor {
+  display: inline-block;
+  position: absolute;
+  left: -1em;
+  text-decoration: none;
+  color: var(--c-brand);
+}
+
+h3 .header-anchor:before {
+  content: '#';
 }
 
 /**
@@ -161,17 +168,24 @@ span.lang {
   color: #42b883;
 }
 
-/* styles for myanmar font */
-
-@font-face {
-  font-family: 'Yati';
-  src: url('/assets/font/yati.ttf');
+.prose :where(:not(pre) > code):not( :where([class~='not-prose'], [class~='not-prose'] *)) {
+  color: #0a3760;
+  padding: 0.25em 0.4em;
+  border-radius: 4px;
+  background-color: #eee;
 }
 
-body {
-  font-family: 'Yati';
+.prose :where(code):not( :where([class~='not-prose'], [class~='not-prose'] *))::before {
+  content: '' !important;
 }
 
-p>code {
-  word-break: break-all;
+.prose :where(code):not( :where([class~='not-prose'], [class~='not-prose'] *))::after {
+  content: '' !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose :where(:not(pre) > code):not( :where([class~='not-prose'], [class~='not-prose'] *)) {
+    color: #d1e9ff;
+    background-color: #3c3a5b;
+  }
 }
