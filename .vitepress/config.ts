@@ -22,5 +22,6 @@ export default defineConfig({
       }
     ],
   ],
+  mpa: true,
   buildEnd: genFeed
 })
