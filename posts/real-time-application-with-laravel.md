@@ -151,7 +151,7 @@ php artisan install:broadcasting
 ```
 ဆိုပြီး broadcasting ကို install လုပ်ပါမယ်။​ [Laravel Reverb](https://laravel.com/docs/11.x/reverb) ကို သွင်းမလားမေးရင် `yes` လုပ်ပေးလိုက်ပါ။
 
-Laravel Reverb ဆိုတာကတော့ websocket server တစ်ခုဖြစ်ပါတယ်။ ပြီးတော့ သူ့ကို pusher client တွေနဲ့ ချိတ်သုံးလို့ရပါတယ်။ ဒီနေရာမှာ တစ်ခုသေချာရှင်းလင်းချင်တာက pusher client သုံးတယ်ဆိုတာ pusher ကို ဝယ်သုံးတာမဟုတ်ပါဘူး pusher sdk ကိုပဲသုံးတာတာ host က laravel reverb host ကို သုံးရမှာပါ။ Laravel Reverb ကိုယ်တိုင်က pusher server သဘောပါ။ ဒီဟာကို နောက်ဆုံးမှာ pusher js သုံးပြီး pure html နဲ့ ရေးပြပါမယ်။
+Laravel Reverb ဆိုတာကတော့ websocket server တစ်ခုဖြစ်ပါတယ်။ ပြီးတော့ သူ့ကို pusher client တွေနဲ့ ချိတ်သုံးလို့ရပါတယ်။ ဒီနေရာမှာ တစ်ခုသေချာရှင်းလင်းချင်တာက pusher client သုံးတယ်ဆိုတာ pusher ကို ဝယ်သုံးတာမဟုတ်ပါဘူး pusher sdk ကိုပဲသုံးတာတာ host က laravel reverb host ကို သုံးရမှာပါ။ Laravel Reverb ကိုယ်တိုင်က pusher server သဘောပါ။
 
 ```env
 REVERB_APP_ID=286585
@@ -161,7 +161,7 @@ REVERB_HOST="localhost"
 REVERB_PORT=8080
 REVERB_SCHEME=http
 ```
-ဒီ key တွေကို pusher client မှာထည့်ပြီး Laravel Reverb နဲ့ ချိတ်လို့ရပါတယ်။ ကိုယ်ကြိုက်သလိုလည်း `.env` မှာပြင်လို့ရပါတယ်။
+ဒီ key တွေကို pusher client မှာထည့်ပြီး Laravel Reverb နဲ့ ချိတ်လို့ရပါတယ်။ ကိုယ်ကြိုက်သလိုလည်း `.env` မှာပြင်လို့ရပါတယ်။ ဒီဟာကို နောက်ဆုံးမှာ pusher js သုံးပြီး pure html နဲ့ ရေးပြပါမယ်။
 
 ပြီးရင်တော့ event တစ်ခု create လုပ်ပါမယ်။
 
@@ -299,9 +299,9 @@ Frontend ကို javascript framework ဒါမှမဟုတ် android app 
 
     <script>
         var pusher = new Pusher('ns5vuegxbudmxyrdyfnb', {
-            appId: "286585",
-            secret: "zdveddmzanu54wsqw7ad",
-            wsHost: "127.0.0.1",
+            appId: '286585',
+            secret: 'zdveddmzanu54wsqw7ad',
+            wsHost: '127.0.0.1',
             wsPort: 8080,
             forceTLS: false,
             enabledTransports: ['ws'],
