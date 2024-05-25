@@ -308,7 +308,7 @@ Frontend ကို javascript framework ဒါမှမဟုတ် android app 
             cluster: ''
         });
 
-        var channel = pusher.subscribe("character");
+        var channel = pusher.subscribe('character');
 
         channel.bind('App\\Events\\CharacterUpdated', (data) => {
             if (data.character == 'green') {
