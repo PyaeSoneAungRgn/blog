@@ -23,5 +23,8 @@ export default defineConfig({
     ],
   ],
   mpa: true,
-  buildEnd: genFeed
+  buildEnd: genFeed,
+  sitemap: {
+    hostname: 'https://pyaesoneaung.dev'
+  }
 })
