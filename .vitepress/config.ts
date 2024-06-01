@@ -21,6 +21,25 @@ export default defineConfig({
         href: 'https://burma.social/@psa'
       }
     ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/@docsearch/css@3'
+      }
+    ],
+    [
+      'script',
+      {
+        src: 'https://cdn.jsdelivr.net/npm/@docsearch/js@3'
+      }
+    ],
+    [
+      'script',
+      {
+        src: '/custom.js'
+      }
+    ],
   ],
   mpa: true,
   buildEnd: genFeed,

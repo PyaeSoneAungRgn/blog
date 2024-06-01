@@ -10,3 +10,7 @@ body {
 p>code {
     word-break: break-all;
 }
+
+#docSearch {
+    display: none;
+}
