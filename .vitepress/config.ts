@@ -21,12 +21,6 @@ export default defineConfig({
         href: 'https://burma.social/@psa'
       }
     ],
-    [
-      'script',
-      {
-        src: 'https://f.convertkit.com/ckjs/ck.5.js'
-      }
-    ],
   ],
   mpa: true,
   buildEnd: genFeed,
