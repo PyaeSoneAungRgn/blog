@@ -9,7 +9,8 @@ document.onreadystatechange = () => {
         maxZoom: 18,
         attribution:
           '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        ext: 'png'
+        ext: 'png',
+        accessToken: '6ec7a890-d268-4d3f-8f7a-b354e0d6304d'
       }
     ).addTo(map)
 
