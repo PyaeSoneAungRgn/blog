@@ -52,13 +52,7 @@ export default defineConfig({
       {
         src: '/custom.js'
       }
-    ],
-    [
-      'script',
-      {
-        src: '/map.js'
-      }
-    ],
+    ]
   ],
   mpa: true,
   buildEnd: genFeed,
