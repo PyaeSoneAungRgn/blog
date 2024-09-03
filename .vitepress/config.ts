@@ -50,7 +50,7 @@ export default defineConfig({
     [
       'script',
       {
-        src: '/custom.js'
+        src: `/custom.js?t=${Date.now()}`
       }
     ]
   ],
