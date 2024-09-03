@@ -25,6 +25,19 @@ export default defineConfig({
       'link',
       {
         rel: 'stylesheet',
+        href: 'https://unpkg.com/leaflet/dist/leaflet.css'
+      }
+    ],
+    [
+      'script',
+      {
+        src: 'https://unpkg.com/leaflet/dist/leaflet.js'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/@docsearch/css@3'
       }
     ],
@@ -38,6 +51,12 @@ export default defineConfig({
       'script',
       {
         src: '/custom.js'
+      }
+    ],
+    [
+      'script',
+      {
+        src: '/map.js'
       }
     ],
   ],

@@ -14,3 +14,12 @@ p>code {
 #docSearch {
     display: none;
 }
+
+#map { 
+    height: 500px; 
+    width: 100%; 
+}
+
+.emoji-icon {
+    font-size: 32px;
+}
