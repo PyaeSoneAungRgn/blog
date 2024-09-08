@@ -94,6 +94,12 @@ document.onreadystatechange = () => {
           98.91862628104475,
           'https://www.youtube.com/watch?v=K6fG1y3CGbM',
           'Ride to Wat Phra That Doi Kham'
+        ],
+        [
+          18.79164223277946,
+          98.9331212576711,
+          'https://www.youtube.com/watch?v=Un3X8oicXi0',
+          'Ride to Chaloem Phra Kiat Pavilion Viewpoint'
         ]
       ]
 
