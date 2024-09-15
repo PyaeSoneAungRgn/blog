@@ -50,6 +50,12 @@ document.onreadystatechange = () => {
           98.9331212576711,
           'https://www.youtube.com/watch?v=Un3X8oicXi0',
           'Ride to Chaloem Phra Kiat Pavilion Viewpoint'
+        ],
+        [
+          18.787959311540863,
+          98.99307636727593,
+          'https://youtu.be/plS6uDEu8Pg?si=YQHB0y5ehetMCufQ',
+          'Ride to Tha Phae Gate'
         ]
       ]
 
