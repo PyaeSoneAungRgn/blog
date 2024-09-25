@@ -56,6 +56,12 @@ document.onreadystatechange = () => {
           98.99307636727593,
           'https://youtu.be/plS6uDEu8Pg?si=YQHB0y5ehetMCufQ',
           'Ride to Tha Phae Gate'
+        ],
+        [
+          18.81671414662279,
+          98.88920548269493,
+          'https://youtu.be/pZ_eDrazCDc?si=DrQret9eospey1Io',
+          'Ride to Doi Pui View Point'
         ]
       ]
 
