@@ -62,6 +62,12 @@ document.onreadystatechange = () => {
           98.88920548269493,
           'https://youtu.be/pZ_eDrazCDc?si=DrQret9eospey1Io',
           'Ride to Doi Pui View Point'
+        ],
+        [
+          18.81310192993326, 
+          98.8845883382886,
+          'https://youtu.be/Fr0h6OkepwI?si=Q3nnrsFJFQZC84SZ',
+          'Ride from Song Sean Coffee Shop'
         ]
       ]
 
