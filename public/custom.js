@@ -18,7 +18,7 @@ document.onreadystatechange = () => {
 
     var mapContainer = document.getElementById('map')
     if (mapContainer) {
-      var map = L.map('map').setView([18.769, 98.9683], 12.4)
+      var map = L.map('map').setView([18.769, 98.9683], 12)
 
       L.tileLayer(
         'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.{ext}',
@@ -68,6 +68,18 @@ document.onreadystatechange = () => {
           98.8845883382886,
           'https://youtu.be/Fr0h6OkepwI?si=Q3nnrsFJFQZC84SZ',
           'Ride from Song Sean Coffee Shop'
+        ],
+        [
+          18.693792059398717,
+          98.9223470665087,
+          'https://youtu.be/v4Psti48qTg?si=PAl34y_jmv0ZtKhN',
+          'Ride to Lotus\'s Go Fresh'
+        ],
+        [
+          18.86571028624733,
+          99.35100603295875,
+          'https://youtu.be/3NvMggyagrk?si=uqb37gduszYYm-Og',
+          'Ride to Mae Kampong Village'
         ]
       ]
 
