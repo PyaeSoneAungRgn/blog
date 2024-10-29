@@ -80,7 +80,13 @@ document.onreadystatechange = () => {
           99.35100603295875,
           'https://youtu.be/3NvMggyagrk?si=uqb37gduszYYm-Og',
           'Ride to Mae Kampong Village'
-        ]
+        ],
+        [
+          18.892704999135887, 
+          99.35170291173552,
+          'https://youtu.be/heoZtb3MBU8?si=nUUDp4-WcDEFxcMi',
+          'Ride to Giant Tree'
+        ],
       ]
 
       var scooterIcon = L.divIcon({
