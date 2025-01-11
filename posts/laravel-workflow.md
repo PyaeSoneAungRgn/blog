@@ -258,7 +258,7 @@ export default {
 
 ဒါဆိုရင်တော့ git commit run လိုက်ရင် တကယ် commit မဖြစ်ခင်မှာ php file changes တွေရှိရင် ဒီ command တွေ auto run သွားမှာပါ။ ဘာ error မှ မရှိမှ၊ အားလုံး fix ပြီးမှ commit တကယ်ဖြစ်သွားမှာပါ။
 
-တကယ်လို့ eror တက်လည်း commit ပေးချင်တယ်ဆိုရင်တော့ 
+တကယ်လို့ error တက်လည်း commit ပေးချင်တယ်ဆိုရင်တော့ 
 
 ```bash
 git commit -m "wip" --no-verify
