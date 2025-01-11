@@ -84,7 +84,7 @@ lint က code style မှန်လား မှားလား စစ်ပြ�
 
 ## Rector
 
-Rector က php code တွေကို upgrade နဲ့ refactoring လုပ်ပေးတာပါ။ Rector က အရမ်းကျယ်ပြန့်ပါတယ် သူ့အကြောင်းကြီးပဲ သပ်သပ် blog ရေးရင်ကို မနည်းဖူးရေးရမှာ။ ဒီ blog မှာတော့ php code တွေကို upgrade နဲ့ refactoring လုပ်ပေးတယ် လို့ အလွယ်မှတ်ထားရင်ရပါပြီ။ ဉပမာ
+Rector က php code တွေကို upgrade နဲ့ refactoring လုပ်ပေးတာပါ။ Rector က အရမ်းကျယ်ပြန့်ပါတယ် သူ့အကြောင်းကြီးပဲ သပ်သပ် blog ရေးရင်ကို မနည်းဘူးရေးရမှာ။ ဒီ blog မှာတော့ php code တွေကို upgrade နဲ့ refactoring လုပ်ပေးတယ် လို့ အလွယ်မှတ်ထားရင်ရပါပြီ။ ဉပမာ
 
 ```php
 Route::get('/', function () {
