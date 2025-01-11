@@ -167,7 +167,7 @@ $user = new User;
 $user->helloWorld();
 ```
 
-ဒါမျိုးရေးထားရင် error ပြမှာပါ။ Laravel အတွက် အခုလို install လုပ်လို့ရပါတယ်။
+ဒါမျိုးရေးထားရင် error throw မှာပါ။ Laravel အတွက် အခုလို install လုပ်လို့ရပါတယ်။
 
 ```bash
 composer require --dev "larastan/larastan:^3.0"
