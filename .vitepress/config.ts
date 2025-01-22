@@ -22,6 +22,13 @@ export default defineConfig({
       }
     ],
     [
+      'meta',
+      {
+        name: 'fediverse:creator',
+        content: '@psa@burma.social'
+      }
+    ],
+    [
       'link',
       {
         rel: 'stylesheet',
