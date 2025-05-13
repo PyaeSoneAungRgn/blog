@@ -139,19 +139,14 @@ class GetPlayerProfileTool
                 'profile' => $profileResponse->json(),
                 'stats' => $statsResponse->json(),
                 'games' => [
-                    [
-                        'month' => $currentMonth,
-                        'data' => $currentMonthResponse->json(),
-                    ],
-                    [
-                        'month' => $previousMonth,
-                        'data' => $previousMonthResponse->json(),
-                    ],
+                    'current_month' => $currentMonthResponse->json(),
+                    'previous_month' => $previousMonthResponse->json(),
                 ],
             ];
         });
     }
 }
+
 ```
 
 ဒါကတော့ ရိုးရိုးလေးပါ AI Agent ကရတဲ့ player name နဲ့ chess.com က data တွေ သွားခေါ်တာပါ။ `Cache::remember` က api ကို တစ်ခါခေါ်ပြီးရင် နောက်တစ်မိနစ်အတွင်း ထပ်မခေါ်စေချင်လို့ပါ။ `Http::pool` ကို သုံးထားတာက API ၃ခုလုံးကို တပြိုင်ထဲခေါ်ချင်လို့ပါ။ 
