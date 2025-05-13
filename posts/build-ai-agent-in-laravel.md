@@ -220,4 +220,4 @@ class ChessAgentCommand extends Command
 
 ### Neuron AI
 
-[Neuron AI](https://docs.neuron-ai.dev/) က PHP မှာ AI Agent ဖန်တီးဖို့အတွက် feature စုံတဲ့ tools တစ်ခုပါ။ သူ့မှာ RAG တို့ MCP နဲ့ ချိတ်တာတို့ လည်းရှိပါသေးတယ် အသေးစိတ်ကို official documentation နဲ့ [https://inspector.dev/blog/](https://inspector.dev/blog/) မှာ လေ့လာလို့ရပါတယ်။
+[Neuron AI](https://docs.neuron-ai.dev/) က PHP မှာ AI Agent ဖန်တီးဖို့အတွက် feature စုံတဲ့ composer package တစ်ခုပါ။ သူ့မှာ RAG တို့ MCP တို့နဲ့ ချိတ်တာတို့ လည်းရှိပါသေးတယ် အသေးစိတ်ကို official documentation နဲ့ [https://inspector.dev/blog/](https://inspector.dev/blog/) မှာ လေ့လာလို့ရပါတယ်။
