@@ -105,7 +105,7 @@ class ChessAgent extends Agent
 
 `chatHistory()` က သူနဲ့ ရှေ့ကပြောတဲ့ conversation တွေကို မှတ်မိစေချင်လို့ပါ။
 
-`tools()` က AI ကခေါ်သုံးလို့ရမယ် tool list ပါ။ လက်ရှိမှာ tool တစ်ခုပါပါတယ်။ သူက user ပို့တဲ့ စာထဲက playerName ကို ယူပြီး chess data ကို return ပြန်ပေးမှာပါ။ `GetPlayerProfileTool` က ရလာတဲ့ player name နဲ့ chess.com ကနေ data သွားယူဖို့ ရေးထားတဲ့ tool class ပါ။
+`tools()` က AI ကခေါ်သုံးလို့ရမယ် tool list ပါ။ လက်ရှိမှာ tool တစ်ခုပဲပါတယ်။ သူက user ပို့တဲ့ စာထဲက playerName ကို ယူပြီး chess data ကို return ပြန်ပေးမှာပါ။ `GetPlayerProfileTool` က ရလာတဲ့ player name နဲ့ chess.com ကနေ data သွားယူဖို့ ရေးထားတဲ့ class ပါ။
 
 `app/Tools/GetPlayerProfileTool.php`
 
@@ -162,7 +162,7 @@ $response = ChessAgent::make()
     ->getContent();
 ```
 
-### Chess Agent Command
+### Create Chess Agent Command
 
 ပိုပြီး proper ဖြစ်သွားအောင် Laravel Command တစ်ခုဖန်တီးပါမယ်။
 
