@@ -52,7 +52,7 @@ head:
 
 ### Ride to Highest Spot in Thailand
 
-ဒါကတော့ တကယ့် ခရီးလို့ ပြောလို့ရတယ်။ ထိုင်းရဲ့ အမြင်ဆုံးနေရာ ဖြစ်တဲ့ Doi Inthanon ကို တက်ခဲ့တာ။ ပထမဆုံး တိမ်ပင်လယ်ကို မြင်ဖူးတာပဲ။ အဲ့အချိန်တုန်းက ဘဝမှာ အလှဆုံး မြင်ဖူးတာပဲ။ Pai ဆိုတဲ့ မြို့ကို မရောက်ခင် အထိပေါ့။
+ဒါကတော့ တကယ့် ခရီးလို့ ပြောလို့ရတယ်။ ထိုင်းရဲ့ အမြင့်ဆုံးနေရာ ဖြစ်တဲ့ Doi Inthanon ကို တက်ခဲ့တာ။ ပထမဆုံး တိမ်ပင်လယ်ကို မြင်ဖူးတာပဲ။ အဲ့အချိန်တုန်းက ဘဝမှာ အလှဆုံး မြင်ဖူးတာပဲ။ Pai ဆိုတဲ့ မြို့ကို မရောက်ခင် အထိပေါ့။
 
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GnYq1Nv_JAA?si=AaORTaKDHbVsGsJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
