@@ -5,7 +5,7 @@ description: ငယ်ငယ်က အဖေ့ အစ်ကို ပြော�
 head:
   - - meta
     - property: 'og:image'
-      content: 'https://pyaesoneaung.dev/assets/img/blog/dear-chiang-main-img-2.jpg'
+      content: 'https://pyaesoneaung.dev/assets/img/blog/dear-chiang-mai-img-2.jpg'
 ---
 
 ငယ်ငယ်က အဖေ့ အစ်ကို ပြောဖူးတာရှိတယ် "မင်း အဖေ ငယ်ငယ် က အိန္ဒိယ ထိ ဆိုင်ကယ် တစ်စီးနဲ့ လျှောက်သွားခဲ့တာ" ဆိုပြီး အဲ့ထဲက ဆိုင်ကယ် တစ်စီးနဲ့ ခရီးသွားတာ ဘယ်လိုမျိုးလဲ သိချင်ခဲ့တယ်။ ငယ်ငယ်ထဲက ရန်ကုန်မှာ ကြီးလာတဲ့ ကျတော် အတွက် ဆိုင်ကယ်က အလှမ်းဝေးပါတယ်။ ကိုယ်တိုင်ကလည်း အခန်းထဲနေပြီး code ရေးရတာပဲ ကြိုက်တာ။ နှစ်တိုင်း သင်္ကြန်ဆို ရေဆိုတာတောင် မဟုတ်ဘူး။
@@ -18,9 +18,9 @@ head:
 
 ကံကောင်းချင်တော့ ချင်းမိုင် မြို့ကို ရောက်လာခဲ့တယ် မနှစ်က ၈လပိုင်းမှာ။ ချင်းမိုင်ရောက်ပြီး နောက်နေ့မှာ အသိ အစ်ကိုက ဆိုင်ကယ်နဲ့ မြို့ကို လိုက်ပို့ပေးခဲ့တယ်။ ပထမဆုံး `Chaloem Phra Kiat Pavilion Viewpoint` ချင်းမိုင် တစ်မြို့လုံးကို လှမ်းမြင်ရတဲ့ view point။ နောက်တော့ `Doi Pui Viewpoint` နှစ်ခုလုံးက Doi Suthep တောင်တက်လမ်းမှာပဲ မိုးတွေ ရှယ်ရွာတဲ့ ကြားထဲ တက်ခဲ့တာ ကျတော် ဉီးထုပ်က လေကာမပါတော့ မိုးရေတွေ ဆိုင်ကယ် အရှိန်နဲ့ မျက်နှာကို ရိုက်ပြီး နာနေရော။ ဒါပေမယ့် လမ်းတွေက ရှယ်ကောင်းပြီး လှနေတာ့ ဘယ်လောက်နာနာ တက်မယ်ဆိုပြီးပဲ လုပ်ခဲ့တယ်။ စိတ်ထဲ ငါကိုယ်တိုင် ဆိုင်ကယ်နဲ့ တက်ဦးမယ်ဆိုပြီး တွေးခဲ့တယ်။ အပြန်ကျတော့ Chiang Mai Uni က ကန်ဘောင်မှာ ထိုင်တယ်။ အဲ့မှာ ချင်းမိုင် က တော်တော်လှလှတာပဲ ဆိုပြီး တွေးခဲ့တယ်။
 
-![dear-chiang-main-img-1](https://pyaesoneaung.dev/assets/img/blog/dear-chiang-main-img-1.jpg)
+![dear-chiang-mai-img-1](https://pyaesoneaung.dev/assets/img/blog/dear-chiang-mai-img-1.jpg)
 
-![dear-chiang-main-img-2](https://pyaesoneaung.dev/assets/img/blog/dear-chiang-main-img-2.jpg)
+![dear-chiang-mai-img-2](https://pyaesoneaung.dev/assets/img/blog/dear-chiang-mai-img-2.jpg)
 
 ### First Trip
 
@@ -74,4 +74,4 @@ head:
 
 အရာအားလုံးမှာ trade off ရှိသလိုပဲ ချင်းမိုင် ရဲ့ trade off ကတော့ ကိုယ်တိုင် slow life မှာ အသားကျသွားတာပါ။ ဒီ blog ရေးတာကလည်း မကြာခင် ချင်းမိုင်မြို့ကနေ ဘန်ကောက်သွားရတော့မှာမို့ပါ။ အခုက ချင်းမိုင် မှာ wfh နဲ့ slow life မှာ တော်တော် အသားကျနေတာပါ။ ဒါပေမဲ့ အလုပ် အသစ် offer ရတာရော၊ confort zone က ထွက်ချင်တာရော ပေါင်းပြီး ဘန်ကောက်မှာ ရုံးကန်ဖို့ပဲ ရွေးချယ်လိုက်ပါတယ်။ Holiday ရတိုင်း ချင်းမိုင်မြို့ကို လာလည်ပြီး နောက်တချိန် ချင်းမိုင် မြို့မှာ အခြေကျဖို့ မျှော်လင့်ရင်း.... နှုတ်ဆက်ခဲ့ပါတယ် ♥️။
 
-![dear-chiang-main-img-3](https://pyaesoneaung.dev/assets/img/blog/dear-chiang-main-img-3.jpg)
+![dear-chiang-mai-img-3](https://pyaesoneaung.dev/assets/img/blog/dear-chiang-mai-img-3.jpg)
